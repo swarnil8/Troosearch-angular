@@ -1,5 +1,5 @@
 angular
-.module('TrooSearch')
+.module('TrooSearch',[])
 .controller('TrooController',['$scope',TrooFunction]);
 
 function TrooFunction( $scope ){

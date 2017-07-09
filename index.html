@@ -7,7 +7,7 @@
   <link href="css/main.css" rel="stylesheet">
   <script src="js/libs/angular.js"></script>
     <!-- Modules -->
-    <script src="js/modules/TrooSearch.js"></script>
+    <!-- <script src="js/modules/TrooSearch.js"></script> -->
     <!-- Modules -->
 
   <!-- Controllers -->
@@ -24,10 +24,10 @@
       <input type="text" ng-keydown="search($event)" name="input" ng-model="searchText" id="input" class="input" placeholder="Search property!!!" value="{{suggestion}}" >
 
       <div ng-if="check" class="suggestion-box" id="suggestion-box">
-        <div  ng-repeat="pro in property| filter:searchText" ng-class=" {'single-suggestion' : check}" >
+        <div  ng-repeat="property in property| filter:searchText" ng-class=" {'single-suggestion' : check}" >
          <!-- id="single-suggestion" -->
          <div ng-click = " click($event)">
-           {{pro.name}}
+           {{property.name}}
          </div>
        </div>
 
