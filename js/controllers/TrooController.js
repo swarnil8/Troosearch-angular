@@ -35,9 +35,9 @@ function TrooFunction( $scope ){
     location: 'Dwarka',
   }];
 
-  //$scope.change = [];
+  //$scope.suggestion = [];
   //$scope.click = function( e ){
-    //$scope.change.push($scope.searchText);
+    //$scope.suggestion.push($scope.searchText);
   //}
-   
+
 }

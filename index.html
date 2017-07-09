@@ -21,10 +21,10 @@
 
     <div class="troosearch-inputs" ng-controller="TrooController">
 
-      <input type="text" ng-keydown="search($event)" name="input" ng-model="searchText" id="input" class="input" placeholder="Search property!!!" value="{{change}}" >
+      <input type="text" ng-keydown="search($event)" name="input" ng-model="searchText" id="input" class="input" placeholder="Search property!!!" value="{{suggestion}}" >
 
       <div ng-if="check" class="suggestion-box" id="suggestion-box">
-        <div  ng-repeat="pro in property| filter:searchText" ng-class=" {'single-sugg' : check}" >
+        <div  ng-repeat="pro in property| filter:searchText" ng-class=" {'single-suggestion' : check}" >
          <!-- id="single-suggestion" -->
          <div ng-click = " click($event)">
            {{pro.name}}
