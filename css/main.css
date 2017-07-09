@@ -1,0 +1,78 @@
+body {
+  font-family: helvetica;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 80px;
+}
+
+
+.input {
+  width: 60%;
+  border: 1px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 250px;
+  font-size: 30px;
+  padding-left: 10px;
+  margin-top: 50px;
+  background: transparent;
+  position: relative;
+  text-transform: lowercase;
+}
+
+.input-suggestion {
+  width: 60.8%;
+  padding-bottom: 20px;
+  margin-left: 250px;
+  font-size: 30px;
+  border: 1px solid #ddd;
+  padding-top: 20px;
+  padding-left: 10px;
+  color: #ddd;
+  margin-top: 50px;
+}
+
+.suggestion-box {
+  width: 60.8%;
+  border: 1px solid #ddd;
+  margin-left: 250px;
+  font-size: 20px;
+  height: auto;
+  cursor: pointer;
+}
+.single-sugg{
+
+  border: 1px solid #ddd;
+  padding: 10px;
+
+
+}
+
+
+
+.suggestion {
+  cursor: pointer;
+}
+
+.display-suggestion:hover {
+  background: #e8e7e7;
+}
+
+.active {
+  background: #e8e7e7;
+}
+
+.highlight {
+  font-weight: bold;
+}
+.display-suggestion, .load {
+  border-bottom: 1px solid #ddd;
+  padding-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
