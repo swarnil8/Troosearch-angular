@@ -1,0 +1,152 @@
+img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.blog-yumprint-recipe .blog-yumprint-recipe-title {
+    color: #414141;
+}
+
+.blog-yumprint-recipe .blog-yumprint-subheader, .blog-yumprint-recipe .blog-yumprint-infobar-section-title, .blog-yumprint-recipe .blog-yumprint-infobox-section-title, .blog-yumprint-nutrition-section-title {
+    color: #414141;
+}
+
+.blog-yumprint-recipe .blog-yumprint-save, .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save a {
+    background-color: #666666;
+    color: #ffffff !important;
+}
+
+.blog-yumprint-recipe .blog-yumprint-save:hover, .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save:hover a {
+    background-color: #808080;
+}
+
+.blog-yumprint-recipe .blog-yumprint-adapted-link, .blog-yumprint-nutrition-more, .blog-yumprint-report-error {
+    color: #666666;
+}
+
+.blog-yumprint-recipe .blog-yumprint-infobar-section-data, .blog-yumprint-recipe .blog-yumprint-infobox-section-data, .blog-yumprint-recipe .blog-yumprint-adapted, .blog-yumprint-recipe .blog-yumprint-author, .blog-yumprint-recipe .blog-yumprint-serves, .blog-yumprint-nutrition-section-data {
+    color: #808080;
+}
+
+.blog-yumprint-recipe .blog-yumprint-recipe-summary, .blog-yumprint-recipe .blog-yumprint-ingredient-item, .blog-yumprint-recipe .blog-yumprint-method-item, .blog-yumprint-recipe .blog-yumprint-note-item, .blog-yumprint-write-review, .blog-yumprint-nutrition-box {
+    color: #414141;
+}
+
+.blog-yumprint-write-review:hover, .blog-yumprint-nutrition-more:hover, .blog-yumprint-recipe .blog-yumprint-adapted-link:hover {
+    color: #808080;
+}
+
+.blog-yumprint-recipe .blog-yumprint-nutrition-bar:hover .blog-yumprint-nutrition-section-title {
+    color: #5a5a5a;
+}
+
+.blog-yumprint-recipe .blog-yumprint-nutrition-bar:hover .blog-yumprint-nutrition-section-data {
+    color: #9a9a9a;
+}
+
+.blog-yumprint-recipe .blog-yumprint-print {
+    background-color: #bfbfbf;
+    color: #ffffff;
+}
+
+.blog-yumprint-recipe .blog-yumprint-print:hover {
+    background-color: #d9d9d9;
+}
+
+.blog-yumprint-recipe {
+    background-color: white;
+    border-color: rgb(220, 220, 220);
+    border-style: none;
+    border-width: 1px;
+    border-radius: 0px;
+}
+
+.blog-yumprint-recipe .blog-yumprint-recipe-contents {
+    border-top-color: rgb(220, 220, 220);
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.blog-yumprint-recipe .blog-yumprint-info-bar, .blog-yumprint-recipe .blog-yumprint-nutrition-bar, .blog-yumprint-nutrition-border {
+    border-top-color: rgb(220, 220, 220);
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.blog-yumprint-nutrition-line, .blog-yumprint-nutrition-thick-line, .blog-yumprint-nutrition-very-thick-line {
+    border-top-color: rgb(220, 220, 220);
+}
+
+.blog-yumprint-recipe .blog-yumprint-info-box, .blog-yumprint-nutrition-box {
+    background-color: white;
+    border-color: rgb(220, 220, 220);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+}
+
+.blog-yumprint-recipe .blog-yumprint-recipe-title {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.blog-yumprint-recipe .blog-yumprint-subheader {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.blog-yumprint-recipe .blog-yumprint-recipe-summary, .blog-yumprint-recipe .blog-yumprint-ingredients, .blog-yumprint-recipe .blog-yumprint-methods, .blog-yumprint-recipe .blog-yumprint-notes, .blog-yumprint-write-review, .blog-yumprint-nutrition-box {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.blog-yumprint-recipe .blog-yumprint-info-bar, .blog-yumprint-recipe .blog-yumprint-info-box, .blog-yumprint-recipe .blog-yumprint-adapted, .blog-yumprint-recipe .blog-yumprint-author, .blog-yumprint-recipe .blog-yumprint-serves, .blog-yumprint-recipe .blog-yumprint-infobar-section-title, .blog-yumprint-recipe .blog-yumprint-infobox-section-title, .blog-yumprint-recipe .blog-yumprint-nutrition-bar, .blog-yumprint-nutrition-section-title, .blog-yumprint-nutrition-more {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.blog-yumprint-recipe .blog-yumprint-action {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.blog-yumprint-header {
+    width: 100% !important;
+}
+
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}

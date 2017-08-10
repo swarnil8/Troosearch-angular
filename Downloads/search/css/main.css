@@ -1,0 +1,66 @@
+body{
+  font-family: helvetica;
+}
+.main-heading{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+.troosearch-inputs{
+  text-align: center;
+  /*margin-bottom: 10px;*/
+
+}
+.inputs{
+  position: relative;
+    /*display: inline-block;*/
+}
+#input-hint{
+  /*position: absolute;*/
+  color: #999;
+  border-color: transparent;
+  border: transparent;
+  box-shadow: none;
+  opacity: 1;
+  background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);
+}
+#input{
+  position: relative;
+    top: -82px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    outline: none;
+}
+#input:focus{
+  border: 2px solid #0097cf;
+
+}
+input[type="text"]{
+  width:70%;
+  height: 70px;
+  font-size: 30px;
+  padding: 5px;
+  padding-left: 15px;
+}
+.single-suggestion{
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;;
+  border-right: 1px solid #ddd;
+  padding: 25px;
+  cursor: pointer;
+}
+.suggestion-box{
+  width: 71.8%;
+  height: 360px;
+  display: inline-block;
+  top: -84px;
+
+  position: relative;
+}
+.suggestion-comment{
+  font-size: 20px;
+  /*border-bottom: 1px solid #ddd;*/
+  /*padding: 25px;*/
+  /*padding-left: 15px;*/
+}

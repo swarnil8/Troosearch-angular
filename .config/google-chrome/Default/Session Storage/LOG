@@ -1,0 +1,15 @@
+2017/07/09-12:39:50.408 2647 Reusing MANIFEST /home/swarnil/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2017/07/09-12:39:50.408 2647 Recovering log #354
+2017/07/09-12:39:50.462 2647 Reusing old log /home/swarnil/.config/google-chrome/Default/Session Storage/000354.log 
+2017/07/09-13:11:26.278 3558 Compacting 1@0 + 1@1 files
+2017/07/09-13:11:26.378 3558 Generated table #357@0: 3946 keys, 85532 bytes
+2017/07/09-13:11:26.378 3558 Compacted 1@0 + 1@1 files => 85532 bytes
+2017/07/09-13:11:26.434 3558 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/07/09-13:11:26.434 3558 Delete type=2 #353
+2017/07/09-13:11:26.434 3558 Delete type=2 #355
+2017/07/09-13:46:01.692 3558 Level-0 table #359: started
+2017/07/09-13:46:01.756 3558 Level-0 table #359: 33867 bytes OK
+2017/07/09-13:46:01.881 3558 Delete type=0 #354
+2017/07/09-13:47:19.834 3558 Level-0 table #361: started
+2017/07/09-13:47:19.898 3558 Level-0 table #361: 97475 bytes OK
+2017/07/09-13:47:19.943 3558 Delete type=0 #358

@@ -1,0 +1,7 @@
+"*":
+  editor:
+    fontSize: 12
+  "exception-reporting":
+    userId: "00670dbd-259e-47dd-83d5-568ab7aa994c"
+  welcome:
+    showOnStartup: false

@@ -1,0 +1,2 @@
+1 sudo apt-get purge bcmwl-kernel-source 
+2 sudo apt-get install linux-generic bcmwl-kernel-source

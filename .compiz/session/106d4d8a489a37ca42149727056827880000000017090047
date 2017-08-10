@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<compiz_session id="106d4d8a489a37ca42149727056827880000000017090047">
+  <window id="106d4d8a489a37ca42149727088539159200000017090048" title="New Tab - Mozilla Firefox" class="Firefox" name="Navigator" role="browser" command="firefox">
+    <geometry x="413" y="199" width="1170" height="641"/>
+    <workspace index="0"/>
+  </window>
+  <window id="106d4d8a489a37ca42149727088539159200000017090048" title="Firefox" class="Firefox" name="Popup" command="firefox">
+    <geometry x="637" y="768" width="381" height="123"/>
+    <workspace index="0"/>
+  </window>
+  <window id="106d4d8a489a37ca42149727088539159200000017090048" title="Private Browsing - Mozilla Firefox (Private Browsing)" class="Firefox" name="Navigator" role="browser" command="firefox">
+    <geometry x="190" y="44" width="1170" height="641"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

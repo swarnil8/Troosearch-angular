@@ -1,0 +1,6 @@
+2017/07/08-10:57:29.070 4441 Reusing MANIFEST /home/swarnil/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2017/07/08-10:57:29.071 4441 Recovering log #251
+2017/07/08-10:57:29.557 4441 Reusing old log /home/swarnil/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000251.log 
+2017/07/08-13:34:38.239 8877 Level-0 table #255: started
+2017/07/08-13:34:38.423 8877 Level-0 table #255: 1595296 bytes OK
+2017/07/08-13:34:38.501 8877 Delete type=0 #251

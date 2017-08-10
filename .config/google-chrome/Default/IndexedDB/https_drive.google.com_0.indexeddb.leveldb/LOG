@@ -1,0 +1,6 @@
+2017/07/09-12:40:18.813 2608 Reusing MANIFEST /home/swarnil/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/07/09-12:40:18.813 2608 Recovering log #253
+2017/07/09-12:40:18.826 2608 Reusing old log /home/swarnil/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000253.log 
+2017/07/09-12:40:20.891 3286 Level-0 table #257: started
+2017/07/09-12:40:21.062 3286 Level-0 table #257: 600666 bytes OK
+2017/07/09-12:40:21.391 3286 Delete type=0 #253

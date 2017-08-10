@@ -1,0 +1,13 @@
+@media screen {img {
+	margin-top: 5px!important;
+}
+#detailInWrap img{
+	width: auto;
+}
+#bhWidget img{
+	width: auto!important;
+}
+#container4 img{
+	width: auto!important;
+}
+}

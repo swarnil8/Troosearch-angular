@@ -1,0 +1,409 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "jquery.js", "background3.js", "flights/utility/background_flights.js" ]
+   },
+   "browser_action": {
+      "default_icon": "ext_gray.png",
+      "default_popup": "popup.html",
+      "default_title": "Compare Hatke : Click me to check the current prices of the products you had set alert for."
+   },
+   "content_scripts": [ {
+      "css": [ "FlipStyle.css", "prediction.css", "cover.css", "address.css", "allNeed.css", "freeCOffer.css" ],
+      "js": [ "jquery.js", "js/plugins/draggabilly.js", "utility_all2.js", "js/plugins/lightslider.min.js", "js/main.js", "newest_address.js", "freeCOffer.js", "chat/firebase.js", "chat/init.js", "chat/main.js", "chat/material.min.js", "universe.js", "thankyoupage.js", "cricket.js", "thankyouall.js", "thankyouallbus.js", "thankyouallhotel.js", "thankyouallmovies.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "compare.js", "pc2.js", "js/options1.js", "autoverify.js" ],
+      "matches": [ "http://www.compare.buyhatke.com/*", "http://compare.buyhatke.com/*", "https://www.compare.buyhatke.com/*", "https://compare.buyhatke.com/*", "https://tracking.buyhatke.com/*", "https://aws1.buyhatke.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "highcharts.js", "exporting.js", "paytmGetCodes.js", "autoCoupons.js", "paytmScrap.js", "paytm_new.js", "pc2.js", "js/main.js", "flights/paytm_flights.js", "paytmCheck.js" ],
+      "matches": [ "http://www.paytm.com/*", "http://paytm.com/*", "https://paytm.com/*", "https://www.paytm.com/*", "http://www.paytmmall.com/*", "http://paytmmall.com/*", "https://paytmmall.com/*", "https://www.paytmmall.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "pc2.js", "autoCoupons.js", "goibiboScrap.js", "js/main.js", "flights/goibibo_flights.js" ],
+      "matches": [ "http://www.goibibo.com/*", "http://goibibo.com/*", "https://goibibo.com/*", "https://www.goibibo.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/goindigo_flights.js" ],
+      "matches": [ "http://book.goindigo.in/*", "http://goindigo.in/*", "https://goindigo.in/*", "https://book.goindigo.in/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/goair_flights.js" ],
+      "matches": [ "http://www.goair.in/*", "http://goair.in/*", "https://goair.in/*", "https://www.goair.in/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/via_flights.js" ],
+      "matches": [ "http://in.via.com/*", "https://in.via.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/airasia_flights.js" ],
+      "matches": [ "http://booking.airasia.com/*", "http://booking.airasia.com/*", "https://booking.airasia.com/*", "https://booking.airasia.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/spicejet_flights.js" ],
+      "matches": [ "http://book.spicejet.com/*", "http://spicejet.com/*", "https://spicejet.com/*", "https://book.spicejet.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/expedia_flights.js" ],
+      "matches": [ "http://domestic-air-tickets.expedia.co.in/*", "https://domestic-air-tickets.expedia.co.in/*", "http://www.expedia.com/*", "https://www.expedia.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/akbartravels_flights.js", "autoCoupons.js", "akbartravelsScrap.js" ],
+      "matches": [ "http://www.akbartravels.com/*", "https://www.akbartravels.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/jetairways_flights.js" ],
+      "matches": [ "http://secure.jetairways.com/*", "https://secure.jetairways.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "pc2.js", "autoCoupons.js", "yatraScrap.js", "js/main.js", "flights/yatra_flights.js" ],
+      "matches": [ "http://secure.yatra.com/*", "http://www.secure.yatra.com/*", "https://secure.yatra.com/*", "https://www.secure.yatra.com/*", "http://yatra.com/*", "http://www.yatra.com/*", "https://yatra.com/*", "https://www.yatra.com/*", "http://flight.yatra.com/*", "http://flight.yatra.com/*", "https://flight.yatra.com/*", "https://flight.yatra.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/mmt_int_flights.js" ],
+      "matches": [ "http://cheapfaresindia.makemytrip.com/*", "http://www.cheapfaresindia.makemytrip.com/*", "https://cheapfaresindia.makemytrip.com/*", "https://www.cheapfaresindia.makemytrip.com/*", "https://www.makemytrip.com/air/*", "http://www.makemytrip.com/air/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "pc2.js", "js/main.js", "flights/tripadvScrap.js" ],
+      "matches": [ "https://www.tripadvisor.in/*", "http://www.tripadvisor.in/*", "https://tripadvisor.in/*", "http://tripadvisor.in/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "pc2.js", "autoCoupons.js", "cleartripScrap.js", "js/main.js", "flights/cleartrip_flights.js" ],
+      "matches": [ "http://www.cleartrip.com/*", "http://cleartrip.com/*", "https://cleartrip.com/*", "https://www.cleartrip.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/easemytrip_flights.js" ],
+      "matches": [ "http://www.easemytrip.in/*", "http://easemytrip.in/*", "https://easemytrip.in/*", "https://www.easemytrip.in/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "js/main.js", "flights/mmt_flights.js" ],
+      "matches": [ "http://www.flights.makemytrip.com/*", "http://flights.makemytrip.com/*", "https://www.flights.makemytrip.com/*", "https://flights.makemytrip.com/*", "http://makemytrip.com/search/*", "http://www.makemytrip.com/makemytrip/search/*", "https://makemytrip.com/makemytrip/search/*", "https://www.makemytrip.com/makemytrip/search/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "pc2.js", "js/main.js", "flights/kayak_flights.js" ],
+      "matches": [ "http://www.kayak.co.in/*", "https://www.kayak.co.in/*", "http://kayak.co.in/*", "http://www.kayak.com/*", "https://www.kayak.com/*", "http://kayak.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "pc2.js", "js/main.js", "flights/airindia_flights.js" ],
+      "matches": [ "https://book.airindia.in/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "pc2.js", "js/main.js", "flights/hdfc_flights.js" ],
+      "matches": [ "https://offers.smartbuy.hdfcbank.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "flights/css/flights.css" ],
+      "js": [ "jquery.js", "flights/utility/flightAll.js", "pc2.js", "js/main.js", "flights/priceline_flights.js" ],
+      "matches": [ "https://www.priceline.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "autoCoupons.js", "mmt_int_cpn.js" ],
+      "matches": [ "http://cheapfaresindia.makemytrip.com/*", "http://www.cheapfaresindia.makemytrip.com/*", "https://cheapfaresindia.makemytrip.com/*", "https://www.cheapfaresindia.makemytrip.com/*", "https://www.makemytrip.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "autoCoupons.js", "mmtScrap.js" ],
+      "matches": [ "http://www.flights.makemytrip.com/*", "http://flights.makemytrip.com/*", "https://www.flights.makemytrip.com/*", "https://flights.makemytrip.com/*", "http://www.compay.makemytrip.com/*", "http://compay.makemytrip.com/*", "https://www.compay.makemytrip.com/*", "https://compay.makemytrip.com/*", "http://makemytrip.com/*", "http://www.makemytrip.com/*", "https://makemytrip.com/*", "https://www.makemytrip.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "highcharts.js", "exporting.js", "abofScrap.js", "abof_new.js", "pc2.js" ],
+      "matches": [ "http://www.abof.com/*", "http://abof.com/*", "https://www.abof.com/*", "https://abof.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "highcharts.js", "exporting.js", "autoCoupons.js", "bmsScrap.js", "pc2.js" ],
+      "matches": [ "http://in.bookmyshow.com/*", "https://in.bookmyshow.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "compare.js", "pc2.js" ],
+      "matches": [ "http://www.compare-mobiles.buyhatke.com/*", "http://compare-mobiles.buyhatke.com/*", "https://www.compare-mobiles.buyhatke.com/*", "https://compare-mobiles.buyhatke.com/*" ]
+   }, {
+      "css": [ "style.css" ],
+      "js": [ "pc2.js", "mi.js", "utility_all2.js", "mi-flash.js" ],
+      "matches": [ "http://www.mi.com/*", "http://buy.mi.com/*", "https://buy.mi.com/*", "http://mi.com/*", "https://www.mi.com/*", "https://compare-mobiles.buyhatke.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "highcharts.js", "exporting.js", "indiarushScrap.js", "indiarush_new.js", "pc2.js" ],
+      "matches": [ "http://www.indiarush.com/*", "http://indiarush.com/*", "https://indiarush.com/*", "https://www.indiarush.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "chumbakScrap.js", "chumbak_new.js" ],
+      "matches": [ "http://www.chumbak.com/*", "http://chumbak.com/*", "https://chumbak.com/*", "https://www.chumbak.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "nykaaScrap.js", "nykaa_new.js" ],
+      "matches": [ "http://www.nykaa.com/*", "http://nykaa.com/*", "https://nykaa.com/*", "https://www.nykaa.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "cloviaScrap.js", "clovia_new.js" ],
+      "matches": [ "http://www.clovia.com/*", "http://clovia.com/*", "https://clovia.com/*", "https://www.clovia.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "limeScrap.js", "lime_new.js" ],
+      "matches": [ "http://www.limeroad.com/*", "http://limeroad.com/*", "https://limeroad.com/*", "https://www.limeroad.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "urbanLadScrap.js", "urbanLad_new.js" ],
+      "matches": [ "http://www.urbanladder.com/*", "http://urbanladder.com/*", "https://urbanladder.com/*", "https://www.urbanladder.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "bsScrap.js", "bs_new.js" ],
+      "matches": [ "http://www.basicslife.com/*", "http://basicslife.com/*", "https://basicslife.com/*", "https://www.basicslife.com/*", "http://shop.basicslife.com/*", "https://shop.basicslife.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "purplleScrap.js", "purplle_new.js" ],
+      "matches": [ "http://www.purplle.com/*", "http://purplle.com/*", "https://purplle.com/*", "https://www.purplle.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "rediffScrap.js", "rediff_new.js" ],
+      "matches": [ "http://www.shopping.rediff.com/*", "http://shopping.rediff.com/*", "https://shopping.rediff.com/*", "https://shopping.rediff.com/*", "http://commerce.rediff.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "buyingiqScrap.js", "buyingiq_new.js" ],
+      "matches": [ "http://www.buyingiq.com/*", "http://buyingiq.com/*", "https://buyingiq.com/*", "https://www.buyingiq.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "spixScrap.js", "spix_new.js" ],
+      "matches": [ "http://www.smartprix.com/*", "https://www.smartprix.com/*", "https://smartprix.com/*", "http://smartprix.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "blueScrap.js", "blue_new.js" ],
+      "matches": [ "http://www.bluestone.com/*", "http://bluestone.com/*", "https://www.bluestone.com/*", "https://bluestone.com/*", "https://www.bluestone.com/*", "https://www.bluestone.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "ngalScrap.js", "ngal_new.js" ],
+      "matches": [ "http://www.n-gal.com/*", "http://n-gal.com/*", "https://www.n-gal.com/*", "https://n-gal.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "indempScrap.js", "indemp_new.js" ],
+      "matches": [ "http://www.indiaemporium.com/*", "http://indiaemporium.com/*", "https://indiaemporium.com/*", "https://indiaemporium.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "autoCoupons.js", "dominosScrap.js" ],
+      "matches": [ "http://www.pizzaonline.dominos.co.in/*", "http://pizzaonline.dominos.co.in/*", "https://pizzaonline.dominos.co.in/*", "https://www.pizzaonline.dominos.co.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "cbazaarScrap.js", "cbazaar_new.js" ],
+      "matches": [ "http://www.cbazaar.in/*", "http://cbazaar.in/*", "https://www.cbazaar.in/*", "https://cbazaar.in/*", "http://www.cbazaar.com/*", "http://cbazaar.com/*", "https://cbazaar.com/*", "https://www.cbazaar.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "autoCoupons.js", "foodpanda1_cpn.js" ],
+      "matches": [ "http://www.foodpanda.in/*", "http://foodpanda.in/*", "https://foodpanda.in/*", "https://www.foodpanda.in/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "autoCoupons.js", "redbusScrap.js" ],
+      "matches": [ "http://www.redbus.in/*", "http://redbus.in/*", "https://redbus.in/*", "https://www.redbus.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "sasScrap.js", "sas_new.js" ],
+      "matches": [ "http://www.strapsandstrings.com/*", "http://strapsandstrings.com/*", "https://strapsandstrings.com/*", "https://strapsandstrings.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "psScrap.js", "ps_new.js" ],
+      "matches": [ "http://www.prettysecrets.com/*", "http://prettysecrets.com/*", "https://prettysecrets.com/*", "https://prettysecrets.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "s19.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "shop19Scrap.js", "s19_new.js" ],
+      "matches": [ "http://www.shopnineteen.com/*", "http://shopnineteen.com/*", "https://shopnineteen.com/*", "https://shopnineteen.com/*" ]
+   }, {
+      "css": [ "FlipStyle.css", "allNeed.css", "offer.css", "style.css", "deals-pop.css" ],
+      "js": [ "data.js", "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "deals.js", "FlipScrap.js", "FlipScript_new.js", "FlipCheck.js", "Flip-flash.js" ],
+      "matches": [ "http://www.flipkart.com/*", "http://flipkart.com/*", "https://www.flipkart.com/*", "https://flipkart.com/*", "http://dl.flipkart.com/*", "http://dl.flipkart.com/*", "https://dl.flipkart.com/*", "https://dl.flipkart.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "infiScrap.js", "infi_new.js" ],
+      "matches": [ "http://www.infibeam.com/*", "http://infibeam.com/*", "https://www.infibeam.com/*", "https://infibeam.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "rediffBScrap.js", "rediffB_new.js" ],
+      "matches": [ "http://books.rediff.com/*", "http://books.rediff.com/*", "https://www.books.rediff.com/*", "https://books.rediff.com/*", "http://commerce.rediff.com/*" ]
+   }, {
+      "css": [ "book.css", "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "bookScrap.js", "book_new.js" ],
+      "matches": [ "http://www.bookadda.com/*", "http://bookadda.com/*", "https://www.bookadda.com/*", "https://bookadda.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "ebay.css" ],
+      "js": [ "jquery.js", "pc2.js", "autoCoupons.js", "ebayScrap.js", "ebay_new.js", "ebayCheck.js" ],
+      "matches": [ "http://www.order2.ebay.in/*", "http://order2.ebay.in/*", "http://www.ebay.in/*", "https://www.order2.ebay.in/*", "https://order2.ebay.in/*", "http://www.deals.ebay.in/*", "http://deals.ebay.in/*", "https://www.deals.ebay.in/*", "https://deals.ebay.in/*" ]
+   }, {
+      "css": [ "myntraStyle.css", "allNeed.css", "style.css" ],
+      "js": [ "data.js", "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "deals.js", "autoCoupons.js", "mynScrap.js", "mynScript_new.js", "myntraCheck.js" ],
+      "matches": [ "http://www.myntra.com/*", "http://myntra.com/*", "https://www.myntra.com/*", "https://myntra.com/*", "http://secure.myntra.com/*", "https://secure.myntra.com/*" ]
+   }, {
+      "css": [ "shopCluesStyle.css", "allNeed.css", "cover.css", "ebay.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "shopcluesScrap.js", "shopClues_new.js", "shopCheck.js" ],
+      "matches": [ "http://www.shopclues.com/*", "http://shopclues.com/*", "https://www.shopclues.com/*", "https://shopclues.com/*", "https://secure.shopclues.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "fnpScrap.js", "fnp_new.js" ],
+      "matches": [ "http://www.fnp.com/*", "http://fnp.com/*", "https://www.fnp.com/*", "https://fnp.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "fnyScrap.js", "fny_new.js" ],
+      "matches": [ "http://www.fashionandyou.com/*", "http://fashionandyou.com/*", "https://www.fashionandyou.com/*", "https://fashionandyou.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "pepperFryScrap.js", "pepperfry_new.js" ],
+      "matches": [ "http://www.pepperfry.com/*", "http://pepperfry.com/*", "https://www.pepperfry.com/*", "https://pepperfry.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "landmarkScrap.js", "landmark_new.js" ],
+      "matches": [ "http://www.landmarkonthenet.com/*", "http://landmarkonthenet.com/*", "https://www.landmarkonthenet.com/*", "https://landmarkonthenet.com/*", "http://www.landmarkshops.in/*", "http://landmarkshops.in/*", "https://www.landmarkshops.in/*", "https://landmarkshops.in/*" ]
+   }, {
+      "css": [ "shop.css", "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "sstopScrap.js", "sstop_new.js" ],
+      "matches": [ "http://www.shoppersstop.com/*", "http://shoppersstop.com/*", "https://www.shoppersstop.com/*", "https://shoppersstop.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "style.css", "deals-pop.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "deals.js", "autoCoupons.js", "jabScrap.js", "jab_new.js", "jabongCheck.js" ],
+      "matches": [ "http://www.jabong.com/*", "http://jabong.com/*", "https://www.jabong.com/*", "https://jabong.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "koovsScrap.js", "koovs_new.js", "koovsCheck.js" ],
+      "matches": [ "http://www.koovs.com/*", "http://koovs.com/*", "https://www.koovs.com/*", "https://koovs.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "hkScrap.js", "hk_new.js" ],
+      "matches": [ "http://www.healthkart.com/*", "http://healthkart.com/*", "https://www.healthkart.com/*", "https://healthkart.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "hs18Scrap.js", "hs18_new.js" ],
+      "matches": [ "http://www.homeshop18.com/*", "http://homeshop18.com/*", "https://www.homeshop18.com/*", "https://homeshop18.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "style.css", "ebay.css", "deals-pop.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "deals.js", "snapScrap.js", "snapdeal_new.js", "snapCheck.js" ],
+      "matches": [ "http://www.snapdeal.com/*", "http://snapdeal.com/*", "https://www.snapdeal.com/*", "https://snapdeal.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "ureadScrap.js", "uread_new.js" ],
+      "matches": [ "http://www.uread.com/*", "http://uread.com/*", "https://www.uread.com/*", "https://uread.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "naaptolScrap.js", "naaptol_new.js" ],
+      "matches": [ "http://www.naaptol.com/*", "http://naaptol.com/*", "https://www.naaptol.com/*", "https://naaptol.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "acadzoneScrap.js", "acadZone_new.js" ],
+      "matches": [ "http://www.acadzone.com/*", "http://acadzone.com/*", "https://www.acadzone.com/*", "https://acadzone.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "crosswordScrap.js", "crossword_new.js" ],
+      "matches": [ "http://www.crossword.in/*", "http://crossword.in/*", "https://www.crossword.in/*", "https://crossword.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "floralisScrap.js", "floralis_new.js" ],
+      "matches": [ "http://www.floralis.in/*", "http://floralis.in/*", "https://www.floralis.in/*", "https://floralis.in/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "lens.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "lensScrap.js", "lenskart_new.js", "lensCheck.js" ],
+      "matches": [ "http://www.lenskart.com/*", "http://lenskart.com/*", "https://www.lenskart.com/*", "https://lenskart.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "zivameScrap.js", "zivame_new.js", "zivameCheck.js" ],
+      "matches": [ "http://www.zivame.com/*", "http://zivame.com/*", "https://www.zivame.com/*", "https://zivame.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js" ],
+      "matches": [ "http://www.voonik.com/*", "http://voonik.com/*", "https://www.voonik.com/*", "https://voonik.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js" ],
+      "matches": [ "http://www.freshmenu.com/*", "http://freshmenu.com/*", "https://www.freshmenu.com/*", "https://freshmenu.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js" ],
+      "matches": [ "http://www.zomato.com/*", "http://zomato.com/*", "https://www.zomato.com/*", "https://zomato.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js" ],
+      "matches": [ "http://www.travelyaari.com/*", "http://travelyaari.com/*", "https://www.travelyaari.com/*", "https://travelyaari.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "ciloryScrap.js", "cilory_new.js" ],
+      "matches": [ "http://www.cilory.com/*", "http://cilory.com/*", "https://www.cilory.com/*", "https://cilory.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css", "reset.min.css", "offer.css", "prediction_old.css", "deals-pop.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "deals.js", "autoCoupons.js", "amazScrap.js", "amaz_new.js", "amazCook.js", "amazonCheck.js", "amaz-flash.js" ],
+      "matches": [ "http://www.amazon.in/*", "http://amazon.in/*", "https://www.amazon.in/*", "https://amazon.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "grabmoreScrap.js", "gm_new.js" ],
+      "matches": [ "http://www.grabmore.in/*", "http://grabmore.in/*", "https://www.grabmore.in/*", "https://grabmore.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "mspScrap.js", "msp_new.js" ],
+      "matches": [ "http://www.mysmartprice.com/*", "http://mysmartprice.com/*", "https://www.mysmartprice.com/*", "https://mysmartprice.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "jungleeScrap.js", "junglee_new.js" ],
+      "matches": [ "http://www.junglee.com/*", "http://junglee.com/*", "https://www.junglee.com/*", "https://junglee.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "cromaScrap.js", "croma_new.js" ],
+      "matches": [ "http://www.croma.com/*", "http://croma.com/*", "https://www.croma.com/*", "https://croma.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "fabfurnishScrap.js", "fab_new.js" ],
+      "matches": [ "http://www.fabfurnish.com/*", "http://fabfurnish.com/*", "https://www.fabfurnish.com/*", "https://fabfurnish.com/*" ]
+   }, {
+      "css": [ "allNeed.css", "cover.css" ],
+      "js": [ "jquery.js", "pc2.js", "autoCoupons.js" ],
+      "matches": [ "http://www.bigrock.in/*", "http://bigrock.in/*", "https://www.bigrock.in/*", "https://bigrock.in/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "tatacliqScrap.js", "tatacliq_new.js" ],
+      "matches": [ "http://www.tatacliq.com/*", "http://tatacliq.com/*", "https://www.tatacliq.com/*", "https://tatacliq.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "autoCoupons.js", "swiggyScrap.js" ],
+      "matches": [ "http://www.swiggy.com/*", "http://swiggy.com/*", "https://www.swiggy.com/*", "https://swiggy.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "autoCoupons.js", "grofersScrap.js" ],
+      "matches": [ "http://www.grofers.com/*", "http://grofers.com/*", "https://www.grofers.com/*", "https://grofers.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "zoomcarScrap.js" ],
+      "matches": [ "http://www.zoomcar.com/*", "http://zoomcar.com/*", "https://www.zoomcar.com/*", "https://zoomcar.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "autoCoupons.js", "ajioScrap.js", "ajio_new.js" ],
+      "matches": [ "http://www.ajio.com/*", "http://ajio.com/*", "https://www.ajio.com/*", "https://ajio.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "1mgScrap.js", "1mg_new.js" ],
+      "matches": [ "http://www.1mg.com/*", "http://1mg.com/*", "https://www.1mg.com/*", "https://1mg.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "netmedsScrap.js", "netmeds_new.js" ],
+      "matches": [ "http://www.netmeds.com/*", "http://netmeds.com/*", "https://www.netmeds.com/*", "https://netmeds.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "nnnowScrap.js", "nnnow_new.js" ],
+      "matches": [ "http://www.nnnow.com/*", "http://nnnow.com/*", "https://www.nnnow.com/*", "https://nnnow.com/*" ]
+   }, {
+      "css": [ "allNeed.css" ],
+      "js": [ "jquery.js", "pc2.js", "highcharts.js", "exporting.js", "sapnaonlineScrap.js", "sapnaonline_new.js" ],
+      "matches": [ "http://www.sapnaonline.com/*", "http://sapnaonline.com/*", "https://www.sapnaonline.com/*", "https://sapnaonline.com/*" ]
+   } ],
+   "description": "Price Comparision on Flipkart, Amazon and 70 others.Add best coupons automatically with just a click.Set alerts to track price drops",
+   "icons": {
+      "128": "logo_128x128.png",
+      "16": "logo_16x16.png",
+      "32": "logo_32x32.png",
+      "48": "logo_48x48.png",
+      "64": "logo_64x64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDF+gyDnnVmMBNYNRZEQS2Va+GldnLbEzECmyZKUb4NRNRScNe7ceZn5rRwgBtAwR16N0qYBAUfoCJQCIOEJbhcuQfBA18NLjvElqqr7BADZN3vM/iHJzYlVjWknsd69QfDBRGeXb/rRVZnn5X/FVBFwyYWo26GkoIO0PQ/KUpB2wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "6",
+   "name": "BuyHatke",
+   "omnibox": {
+      "keyword": "buyhatke"
+   },
+   "options_page": "options.html",
+   "permissions": [ "https://cheapfaresindia.makemytrip.com/", "http://compare.buyhatke.com/*", "http://babycrawler.buyhatke.com/*", "https://babycrawler.buyhatke.com/*", "http://coup1.buyhatke.com/*", "http://buyhatke.com/*", "http://www.flipkart.com/*", "http://ext1.buyhatke.com/*", "http://www.myntra.com/*", "http://www.snapdeal.com/*", "http://*.tradus.com/*", "http://www.cromaretail.com/*", "http://www.yebhi.com/*", "http://www.homeshop18.com/*", "http://www.jabong.com/*", "http://www.tatacliq.com/*", "http://www.amazon.in/*", "http://www.shopclues.com/*", "http://track.in.omgpm.com/*", "http://rover.ebay.in/*", "http://rover.ebay.com/*", "http://www.ebay.in/*", "http://zovi.com/*", "http://shopping.indiatimes.com/*", "http://shopping.rediff.com/*", "http://www.infibeam.com/*", "http://www.zivame.com/*", "http://www.lenskart.com/*", "http://www.watchkart.com/*", "http://www.fashionara.com/*", "http://ad.doubleclick.net/*", "http://www.fabfurnish.com/*", "http://www.pepperfry.com/*", "https://www.pepperfry.com/*", "https://www.crossword.in/*", "http://www.crossword.in/*", "https://www.craftsvilla.com/*", "http://www.craftsvilla.com/*", "https://www.purplle.com/*", "http://www.purpple.com/*", "http://jasper.go2cloud.org/*", "http://www.trendin.com/*", "http://buyh.tk/*", "http://clk.pvnsolutions.com/*", "http://www.babyoye.com/*", "http://time.jsontest.com/*", "http://node4.buyhatke.com/*", "http://node3.buyhatke.com/*", "http://search1.buyhatke.com/*", "https://tracking.buyhatke.com/*", "contextMenus", "notifications", "gcm", "tabs", "webRequest", "webRequestBlocking", "cookies" ],
+   "short_name": "Compare Hatke",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.4.178",
+   "web_accessible_resources": [ "koovsCheckcookie.js", "shopCheckcookie.js", "myntraCheckCookie.js", "jabongCheckcookie.js", "address_script.js", "ico_green.ico", "apply-coupon.png", "ico_blue.ico", "ico_gray.ico", "comp_Flip.png", "comp_infi.png", "seventyMM.png", "yebhi2.png", "TRADUS.png", "sstop.png", "futurebazaar.png", "landmark.png", "bookadda.png", "infy.png", "indtimes.png", "naaptol.png", "indiacakes.png", "snapdeal.png", "hs18.png", "hushbabies2.png", "healthkart2.png", "ut.png", "floralis.png", "healthkart.png", "flipkart.png", "FNP.png", "acadzone.png", "uread.png", "rediffbooks.png", "watch-price1.png", "lap.png", "tv.png", "red-cross-button.gif", "jabong.png", "amazon.png", "cs-buyh.png", "options.html", "fb.png", "gp.png", "tw.png", "logo.png", "thunder.png", "sidebar-toggler.png", "sidebar-exclusive.png", "settings.png", "hk-a-wp-1.png", "hk-a-wp-2.png", "hk-a-pt.png", "buyhatke_logo_big.png", "import_img.png", "info_icon.png", "star-icon.png", "bulb-icon.png", "bug-icon.png", "newUI.html", "autoCoupon.html", "flights/utility/flightRedirect.html", "embedGraph.png", "hideGraph.png", "img/hk-list-empty.png", "style.css", "chat/index.html", "chat/main.css", "img/profile_placeholder.png", "chat/mat.min.css", "img/placeholder-100.png", "checkAngular.js", "score.html", "style-cricket.css", "apply-offers.png", "auto_contest.js", "auto_contest1.js", "auto_contest3.js" ]
+}

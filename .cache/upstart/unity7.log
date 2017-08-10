@@ -1,0 +1,12 @@
+[2547:2547:0709/124003.837182:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)
+A Parser-blocking, cross site (i.e. different eTLD+1) script, https://cdn.hrcdn.net/hackerrank/assets/cdnping-691df18f10507ce98520c220c2ee3e60.js?1499584206952, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, https://cdn.hrcdn.net/hackerrank/assets/cdnping-691df18f10507ce98520c220c2ee3e60.js?1499584206952, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+[2547:2607:0709/124355.381179:ERROR:service_manager.cc(425)] InterfaceProviderSpec prevented connection from: content_utility to: content_browser
+[2547:2547:0709/124654.639483:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)
+[2547:2607:0709/124719.569137:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+[2547:2547:0709/130134.724369:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)
+[2547:2547:0709/130857.563568:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[2547:2547:0709/134511.104155:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)

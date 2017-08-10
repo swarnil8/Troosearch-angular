@@ -1,0 +1,18 @@
+2017/07/08-20:19:05.415 2058 Reusing MANIFEST /home/swarnil/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/07/08-20:19:05.416 2058 Recovering log #247
+2017/07/08-20:19:05.586 2058 Reusing old log /home/swarnil/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000247.log 
+2017/07/08-20:19:07.620 2609 Level-0 table #251: started
+2017/07/08-20:19:07.774 2609 Level-0 table #251: 600663 bytes OK
+2017/07/08-20:19:08.343 2609 Delete type=0 #247
+2017/07/08-20:19:08.344 2609 Compacting 4@0 + 1@1 files
+2017/07/08-20:19:08.514 2609 Generated table #252@0: 13 keys, 311636 bytes
+2017/07/08-20:19:08.514 2609 Compacted 4@0 + 1@1 files => 311636 bytes
+2017/07/08-20:19:08.898 2609 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/07/08-20:19:08.898 2609 Delete type=2 #243
+2017/07/08-20:19:08.898 2609 Delete type=2 #248
+2017/07/08-20:19:08.898 2609 Delete type=2 #251
+2017/07/08-20:19:08.899 2609 Delete type=2 #245
+2017/07/08-20:19:08.899 2609 Delete type=2 #240
+2017/07/08-20:19:09.709 2609 Level-0 table #254: started
+2017/07/08-20:19:09.897 2609 Level-0 table #254: 621391 bytes OK
+2017/07/08-20:19:10.054 2609 Delete type=0 #250

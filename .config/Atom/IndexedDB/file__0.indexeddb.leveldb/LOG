@@ -1,0 +1,24 @@
+2017/07/09-13:32:06.172 5170 Reusing MANIFEST /home/swarnil/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2017/07/09-13:32:06.206 5170 Recovering log #254
+2017/07/09-13:32:06.624 5170 Reusing old log /home/swarnil/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000254.log 
+2017/07/09-13:49:11.634 5971 Level-0 table #258: started
+2017/07/09-13:49:11.759 5971 Level-0 table #258: 1833857 bytes OK
+2017/07/09-13:49:11.814 5971 Delete type=0 #254
+2017/07/09-13:49:11.814 5971 Compacting 4@0 + 1@1 files
+2017/07/09-13:49:11.959 5971 Generated table #259@0: 10 keys, 242874 bytes
+2017/07/09-13:49:11.959 5971 Compacted 4@0 + 1@1 files => 242874 bytes
+2017/07/09-13:49:11.993 5971 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/07/09-13:49:11.993 5971 Delete type=2 #258
+2017/07/09-13:49:11.994 5971 Delete type=2 #248
+2017/07/09-13:49:11.994 5971 Delete type=2 #252
+2017/07/09-13:49:11.994 5971 Delete type=2 #250
+2017/07/09-13:49:11.994 5971 Delete type=2 #255
+2017/07/09-14:15:49.230 5971 Level-0 table #261: started
+2017/07/09-14:15:49.330 5971 Level-0 table #261: 1807868 bytes OK
+2017/07/09-14:15:49.362 5971 Delete type=0 #257
+2017/07/09-14:32:09.035 5971 Compacting 1@1 + 1@2 files
+2017/07/09-14:32:09.346 5971 Generated table #262@1: 57 keys, 1780009 bytes
+2017/07/09-14:32:09.346 5971 Compacted 1@1 + 1@2 files => 1780009 bytes
+2017/07/09-14:32:09.388 5971 compacted to: files[ 1 0 1 0 0 0 0 ]
+2017/07/09-14:32:09.389 5971 Delete type=2 #243
+2017/07/09-14:32:09.411 5971 Delete type=2 #259

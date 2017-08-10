@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+    Troosearch
+  </title>
+  <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="main-heading">
+      TROOSEARCH
+    </div>
+ <div class="troosearch-inputs">
+   <input type="text" id="search-property" placeholder="Search your query!!">
+   <div style= "display: none" class="suggestion-box" id="suggestion-box">
+     <div style ="display: none;" class="single-suggestion">
+       <div class="single-name suggestion">
+         DLF PHASE 1
+       </div>
+       <div class="single-suggestion">
+         DLF Phase 2
+       </div><div class="single-suggestion">
+         DLF Phase 3
+       </div>
+     </div>
+
+     <div style="display: block;" id="loading-suggestions">
+       Loading...
+     </div>
+
+
+   </div>
+
+ </div>
+
+ <script src="js/api.js"></script>
+ <script src="js/events.js"></script>
+ <script src="js/ui.js"></script>
+<!-- Entry JS File -->
+ <script src="js/main.js"></script>
+  </body>
+</html>

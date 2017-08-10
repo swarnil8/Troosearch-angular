@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js scheme_default">
+<head>
+	<title>Drive &#8211; Process</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- <link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="pingback" href="http://melanie-hanson.themerex.net/xmlrpc.php">
+		<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="Melanie Hanson &raquo; Feed" href="http://melanie-hanson.themerex.net/feed/">
+<link rel="alternate" type="application/rss+xml" title="Melanie Hanson &raquo; Comments Feed" href="http://melanie-hanson.themerex.net/comments/feed/">
+<link rel="alternate" type="text/calendar" title="Melanie Hanson &raquo; iCal Feed" href="http://melanie-hanson.themerex.net/events/?ical=1">
+<link rel="alternate" type="application/rss+xml" title="Melanie Hanson &raquo; Braised Lentils With Cumin-Spiced Chicken Comments Feed" href="http://melanie-hanson.themerex.net/2016/03/22/braised-lentils-with-cumin-spiced-chicken/feed/"> -->
+<meta property="og:image" content="http://melanie-hanson.themerex.net/wp-content/uploads/2016/09/recipe-5.jpg">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/melanie-hanson.themerex.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.6"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="vc_extensions_cqbundle_adminicon-css" href="css/admin_icon.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="essential-grid-plugin-settings-css" href="css/settings_1.css" type="text/css" media="all">
+<link rel="stylesheet" id="tp-open-sans-css" href="css/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="tp-raleway-css" href="css/css_1.css" type="text/css" media="all">
+<link rel="stylesheet" id="tp-droid-serif-css" href="css/css_2.css" type="text/css" media="all">
+<link rel="stylesheet" id="sb_instagram_styles-css" href="css/sb-instagram.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="sb_instagram_icons-css" href="css/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="yumprint-recipe-theme-layout-css" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="css/settings.css" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">
+#rs-demo-id {}
+</style>
+<link rel="stylesheet" id="trx_addons-icons-css" href="css/trx_addons_icons-embedded.css" type="text/css" media="all">
+<link rel="stylesheet" id="swiperslider-css" href="css/swiper.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="magnific-popup-css" href="css/magnific-popup.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="trx_addons-css" href="css/trx_addons.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-layout-css" href="css/woocommerce-layout.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="css/woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="css/woocommerce.css" type="text/css" media="all">
+<link rel="stylesheet" id="melanie_hanson-font-metropolis-css" href="css/stylesheet.css" type="text/css" media="all">
+<link rel="stylesheet" id="melanie_hanson-font-google_fonts-css" href="css/css_3.css" type="text/css" media="all">
+<link rel="stylesheet" id="melanie_hanson-fontello-css" href="css/fontello-embedded.css" type="text/css" media="all">
+<link rel="stylesheet" id="melanie_hanson-main-css" href="css/style.css" type="text/css" media="all">
+<style id="melanie_hanson-main-inline-css" type="text/css">
+.post-navigation .nav-previous a .nav-arrow { background-image: url(images/recipe-3.jpg); }.post-navigation .nav-next a .nav-arrow { background-image: url(images/image-3.jpg); }
+</style>
+<link rel="stylesheet" id="melanie_hanson-animation-css" href="css/animation.css" type="text/css" media="all">
+<link rel="stylesheet" id="melanie_hanson-colors-css" href="css/__colors.css" type="text/css" media="all">
+<link rel="stylesheet" id="melanie_hanson-styles-css" href="css/__styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="mediaelement-css" href="css/mediaelementplayer.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="css/wp-mediaelement.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="melanie_hanson-responsive-css" href="css/responsive.css" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var tribe_events_linked_posts = {"post_types":{"tribe_venue":"venue","tribe_organizer":"organizer"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="js/post.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/2016\/03\/22\/braised-lentils-with-cumin-spiced-chicken\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"http:\/\/melanie-hanson.themerex.net\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/add-to-cart.min.js"></script>
+<script type="text/javascript" src="js/woocommerce-add-to-cart.js"></script>
+<link rel="https://api.w.org/" href="http://melanie-hanson.themerex.net/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://melanie-hanson.themerex.net/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://melanie-hanson.themerex.net/wp-includes/wlwmanifest.xml">
+<link rel="prev" title="Sweet Potato, Broccoli, Tofu and Cashew Curry" href="http://melanie-hanson.themerex.net/2016/03/22/sweet-potato-broccoli-tofu-and-cashew-curry/">
+<link rel="next" title="The Future of Healing Conference" href="http://melanie-hanson.themerex.net/2016/06/07/the-future-of-healing-conference/">
+<meta name="generator" content="WordPress 4.6.6">
+<meta name="generator" content="WooCommerce 2.6.8">
+<link rel="canonical" href="http://melanie-hanson.themerex.net/2016/03/22/braised-lentils-with-cumin-spiced-chicken/">
+<link rel="shortlink" href="http://melanie-hanson.themerex.net/?p=424">
+<link rel="alternate" type="application/json+oembed" href="http://melanie-hanson.themerex.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmelanie-hanson.themerex.net%2F2016%2F03%2F22%2Fbraised-lentils-with-cumin-spiced-chicken%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://melanie-hanson.themerex.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmelanie-hanson.themerex.net%2F2016%2F03%2F22%2Fbraised-lentils-with-cumin-spiced-chicken%2F&#038;format=xml">
+<script type="text/javascript">
+	window.yumprintRecipePlugin = "http://melanie-hanson.themerex.net/wp-content/plugins/recipe-card";
+	window.yumprintRecipeAjaxUrl = "http://melanie-hanson.themerex.net/wp-admin/admin-ajax.php";
+	window.yumprintRecipeUrl = "http://melanie-hanson.themerex.net/";
+</script><!--[if lte IE 8]>
+<script type="text/javascript">
+    window.yumprintRecipeDisabled = true;
+</script>
+<![endif]-->
+<style type="text/css">    .blog-yumprint-recipe .blog-yumprint-recipe-title {
+    	color: #414141;
+    }
+    .blog-yumprint-recipe .blog-yumprint-subheader, .blog-yumprint-recipe .blog-yumprint-infobar-section-title, .blog-yumprint-recipe .blog-yumprint-infobox-section-title, .blog-yumprint-nutrition-section-title {
+        color: #414141;
+    }
+    .blog-yumprint-recipe .blog-yumprint-save, .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save a {
+    	background-color: #666666;
+    	color: #ffffff !important;
+    }
+    .blog-yumprint-recipe .blog-yumprint-save:hover, .blog-yumprint-recipe .blog-yumprint-header .blog-yumprint-save:hover a {
+    	background-color: #808080;
+    }
+    .blog-yumprint-recipe .blog-yumprint-adapted-link, .blog-yumprint-nutrition-more, .blog-yumprint-report-error {
+        color: #666666;
+    }
+    .blog-yumprint-recipe .blog-yumprint-infobar-section-data, .blog-yumprint-recipe .blog-yumprint-infobox-section-data, .blog-yumprint-recipe .blog-yumprint-adapted, .blog-yumprint-recipe .blog-yumprint-author, .blog-yumprint-recipe .blog-yumprint-serves, .blog-yumprint-nutrition-section-data {
+        color: #808080;
+    }
+    .blog-yumprint-recipe .blog-yumprint-recipe-summary, .blog-yumprint-recipe .blog-yumprint-ingredient-item, .blog-yumprint-recipe .blog-yumprint-method-item, .blog-yumprint-recipe .blog-yumprint-note-item, .blog-yumprint-write-review, .blog-yumprint-nutrition-box {
+        color: #414141;
+    }
+    .blog-yumprint-write-review:hover, .blog-yumprint-nutrition-more:hover, .blog-yumprint-recipe .blog-yumprint-adapted-link:hover {
+        color: #808080;
+    }
+    .blog-yumprint-recipe .blog-yumprint-nutrition-bar:hover .blog-yumprint-nutrition-section-title {
+        color: #5a5a5a;
+    }
+    .blog-yumprint-recipe .blog-yumprint-nutrition-bar:hover .blog-yumprint-nutrition-section-data {
+        color: #9a9a9a;
+    }
+
+    .blog-yumprint-recipe .blog-yumprint-print {
+    	background-color: #bfbfbf;
+    	color: #ffffff;
+    }
+    .blog-yumprint-recipe .blog-yumprint-print:hover {
+    	background-color: #d9d9d9;
+    }
+    .blog-yumprint-recipe {
+    	background-color: white;
+    	border-color: rgb(220, 220, 220);
+    	border-style: none;
+    	border-width: 1px;
+    	border-radius: 0px;
+    }
+    .blog-yumprint-recipe .blog-yumprint-recipe-contents {
+    	border-top-color: rgb(220, 220, 220);
+    	border-top-width: 1px;
+    	border-top-style: solid;
+    }
+    .blog-yumprint-recipe .blog-yumprint-info-bar, .blog-yumprint-recipe .blog-yumprint-nutrition-bar, .blog-yumprint-nutrition-border {
+    	border-top-color: rgb(220, 220, 220);
+    	border-top-width: 1px;
+    	border-top-style: solid;
+    }
+    .blog-yumprint-nutrition-line, .blog-yumprint-nutrition-thick-line, .blog-yumprint-nutrition-very-thick-line {
+    	border-top-color: rgb(220, 220, 220);
+    }
+    .blog-yumprint-recipe .blog-yumprint-info-box, .blog-yumprint-nutrition-box {
+    	background-color: white;
+    	border-color: rgb(220, 220, 220);
+    	border-style: solid;
+    	border-width: 1px;
+    	border-radius: 0px;
+    }
+    .blog-yumprint-recipe .blog-yumprint-recipe-title {
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
+		font-size: 22px;
+		font-weight: normal;
+		font-style: normal;
+		text-transform: none;
+		text-decoration: none;
+    }
+    .blog-yumprint-recipe .blog-yumprint-subheader {
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
+		font-size: 18px;
+		font-weight: normal;
+		font-style: normal;
+		text-transform: none;
+		text-decoration: none;
+    }
+    .blog-yumprint-recipe .blog-yumprint-recipe-summary, .blog-yumprint-recipe .blog-yumprint-ingredients, .blog-yumprint-recipe .blog-yumprint-methods, .blog-yumprint-recipe .blog-yumprint-notes, .blog-yumprint-write-review, .blog-yumprint-nutrition-box {
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
+		font-size: 14px;
+		font-weight: normal;
+		font-style: normal;
+		text-transform: none;
+		text-decoration: none;
+    }
+    .blog-yumprint-recipe .blog-yumprint-info-bar, .blog-yumprint-recipe .blog-yumprint-info-box, .blog-yumprint-recipe .blog-yumprint-adapted, .blog-yumprint-recipe .blog-yumprint-author, .blog-yumprint-recipe .blog-yumprint-serves, .blog-yumprint-recipe .blog-yumprint-infobar-section-title, .blog-yumprint-recipe .blog-yumprint-infobox-section-title,.blog-yumprint-recipe .blog-yumprint-nutrition-bar, .blog-yumprint-nutrition-section-title, .blog-yumprint-nutrition-more {
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
+		font-size: 14px;
+		font-weight: normal;
+		font-style: normal;
+		text-transform: none;
+		text-decoration: none;
+    }
+    .blog-yumprint-recipe .blog-yumprint-action {
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif, Helvetica Neue, Helvetica, Tahoma, Sans Serif, Sans;
+		font-size: 13px;
+		font-weight: normal;
+		font-style: normal;
+		text-transform: none;
+		text-decoration: none;
+    }    .blog-yumprint-header {
+        width: 100% !important;
+    }    </style>		<script type="text/javascript">
+			var ajaxRevslider;
+
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				ajaxRevslider = function(obj) {
+
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+
+					var content = "";
+
+					data = {};
+
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = '5138133363';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:"post",
+						url:"http://melanie-hanson.themerex.net/wp-admin/admin-ajax.php",
+						dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});
+
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;
+				};
+
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				};
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+						}
+					}
+				},30);
+			});
+		</script>
+				<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://melanie-hanson.themerex.net/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://melanie-hanson.themerex.net/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.2.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<link rel="icon" href="images/cropped-favicon-90x90.png" sizes="32x32">
+<link rel="icon" href="images/cropped-favicon-300x300.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="images/cropped-favicon-300x300.png">
+<meta name="msapplication-TileImage" content="http://melanie-hanson.themerex.net/wp-content/uploads/2016/09/cropped-favicon-300x300.png">
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="single single-post postid-424 single-format-standard blog_mode_post body_tag body_style_wide scheme_default is_single sidebar_show sidebar_right header_style_header-1 header_position_default header_title_on menu_style_top no_layout wpb-js-composer js-comp-ver-4.12 vc_responsive">
+
+
+	<div class="body_wrap">
+
+		<div class="page_wrap">
+
+			<header class="top_panel top_panel_style_1 with_bg_image melanie_hanson_inline_0 scheme_default">
+					<a class="menu_mobile_button icon-menu-2"></a>
+					<div class="top_panel_fixed_wrap"></div>
+					<div class="top_panel_navi with_bg_image scheme_default">
+							<div class="menu_main_wrap clearfix">
+									<div class="content_wrap">
+											<a class="logo" href="/"><img src="discover/images/MHB-logo-blue.png" class="logo_main" alt="MHB Logo" width="304" height="62"></a>
+											<nav class="menu_main_nav_area menu_hover_fade">
+													<ul id="menu_main" class="menu_main_nav">
+															<li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home  menu-item-76"><a href="/"><span>Home</span></a></li>
+															<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="/about"><span>About Us</span></a></li>
+															<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="/services"><span>Services</span></a></li>
+															<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="/programs"><span>Programs</span></a></li>
+															<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="/process"><span>Process</span></a></li>
+															<li id="menu-item-300" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-300"><a href="/contact"><span>Get in Touch</span></a></li>
+															<!-- <div class="search_wrap search_style_fullscreen">
+																	<div class="search_form_wrap">
+																			<form role="search" method="get" class="search_form" action="/">
+																					<input type="text" class="search_field" placeholder="Search" value="" name="s">
+																					<button type="submit" class="search_submit icon-search"></button>
+																					<a class="search_close icon-cancel"></a>
+																			</form>
+																	</div>
+																	<div class="search_results widget_area">
+																			<a href="#" class="search_results_close icon-cancel"></a>
+																			<div class="search_results_content"></div>
+																	</div>
+															</div> -->
+											</nav>
+									</div>
+							</div>
+					</div>
+					<!-- /.top_panel_navi -->
+					<div class="top_panel_title_wrap">
+							<div class="content_wrap">
+									<div class="top_panel_title">
+											<div class="page_title">
+													<h1 class="page_caption">Drive</h1>
+											</div>
+											<div class="breadcrumbs"><a class="breadcrumbs_item home" href="/">Home</a><span class="breadcrumbs_delimiter"></span><span class="breadcrumbs_item current">Process</span><span class="breadcrumbs_delimiter"></span><span class="breadcrumbs_item current">Drive</span></div>
+									</div>
+							</div>
+					</div>
+			</header>
+
+	<div class="menu_mobile_overlay"></div>
+<div class="menu_mobile scheme_dark">
+	<div class="menu_mobile_inner">
+		<a class="menu_mobile_close icon-cancel"></a>		<nav class="menu_mobile_nav_area">
+			<ul id="menu_mobile" class="menu_mobile_nav"><li id="menu_mobile-item-76" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-76"><a href="http://melanie-hanson.themerex.net/"><span>Home</span></a>
+<ul class="sub-menu">
+	<li id="menu_mobile-item-417" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-246 current_page_item menu-item-417"><a href="http://melanie-hanson.themerex.net/"><span>Homepage 1</span></a></li>
+	<li id="menu_mobile-item-786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-786"><a href="http://melanie-hanson.themerex.net/homepage-2/"><span>Homepage 2</span></a></li>
+	<li id="menu_mobile-item-416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-416"><a href="http://melanie-hanson.themerex.net/home-boxed/"><span>Home Boxed</span></a></li>
+</ul>
+</li>
+<li id="menu_mobile-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="http://melanie-hanson.themerex.net/about-me/"><span>About</span></a></li>
+<li id="menu_mobile-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="http://melanie-hanson.themerex.net/our-services/"><span>Services</span></a></li>
+<li id="menu_mobile-item-300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-300"><a href="#"><span>Features</span></a>
+<ul class="sub-menu">
+	<li id="menu_mobile-item-146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-146"><a href="#"><span>Gallery</span></a>
+	<ul class="sub-menu">
+		<li id="menu_mobile-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a href="http://melanie-hanson.themerex.net/grid/"><span>Grid</span></a></li>
+		<li id="menu_mobile-item-148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148"><a href="http://melanie-hanson.themerex.net/masonry/"><span>Masonry</span></a></li>
+		<li id="menu_mobile-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="http://melanie-hanson.themerex.net/cobbles/"><span>Cobbles</span></a></li>
+	</ul>
+</li>
+	<li id="menu_mobile-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-82"><a href="#"><span>Pages</span></a>
+	<ul class="sub-menu">
+		<li id="menu_mobile-item-245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245"><a href="http://melanie-hanson.themerex.net/team-page/"><span>Team</span></a></li>
+		<li id="menu_mobile-item-170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a href="http://melanie-hanson.themerex.net/get-in-touch/"><span>Contacts</span></a></li>
+		<li id="menu_mobile-item-431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a href="http://melanie-hanson.themerex.net/recipes/"><span>Recipes</span></a></li>
+		<li id="menu_mobile-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169"><a href="http://melanie-hanson.themerex.net/programs/"><span>Programs</span></a></li>
+		<li id="menu_mobile-item-325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a href="http://melanie-hanson.themerex.net/calculator/"><span>Calculator</span></a></li>
+		<li id="menu_mobile-item-301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-301"><a href="http://melanie-hanson.themerex.net/faq-page/"><span>FAQ Page</span></a></li>
+	</ul>
+</li>
+	<li id="menu_mobile-item-1135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1135"><a href="#"><span>Tools</span></a>
+	<ul class="sub-menu">
+		<li id="menu_mobile-item-460" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-460"><a href="http://melanie-hanson.themerex.net/typography/"><span>Typography</span></a></li>
+		<li id="menu_mobile-item-459" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-459"><a href="http://melanie-hanson.themerex.net/shortcodes/"><span>Shortcodes</span></a></li>
+	</ul>
+</li>
+	<li id="menu_mobile-item-385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-385"><a href="#"><span>Support</span></a>
+	<ul class="sub-menu">
+		<li id="menu_mobile-item-386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a href="http://melanie-hanson.themerex.net/customization/"><span>Customization</span></a></li>
+		<li id="menu_mobile-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a href="http://melanie-hanson.themerex.net/support/"><span>Support</span></a></li>
+	</ul>
+</li>
+	<li id="menu_mobile-item-476" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-476"><a href="/events"><span>Events</span></a></li>
+</ul>
+</li>
+<li id="menu_mobile-item-83" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-83"><a href="#"><span>Blog</span></a>
+<ul class="sub-menu">
+	<li id="menu_mobile-item-92" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-92"><a href="#"><span>Classic</span></a>
+	<ul class="sub-menu">
+		<li id="menu_mobile-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="http://melanie-hanson.themerex.net/classic-1-column/"><span>Classic 1 column</span></a></li>
+		<li id="menu_mobile-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="http://melanie-hanson.themerex.net/classic-2-columns/"><span>Classic 2 columns</span></a></li>
+		<li id="menu_mobile-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="http://melanie-hanson.themerex.net/classic-3-columns/"><span>Classic 3 columns</span></a></li>
+	</ul>
+</li>
+	<li id="menu_mobile-item-112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-112"><a href="#"><span>Chess</span></a>
+	<ul class="sub-menu">
+		<li id="menu_mobile-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="http://melanie-hanson.themerex.net/chess-2-columns/"><span>Chess 2 columns</span></a></li>
+		<li id="menu_mobile-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="http://melanie-hanson.themerex.net/chess-4-columns/"><span>Chess 4 columns</span></a></li>
+		<li id="menu_mobile-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="http://melanie-hanson.themerex.net/chess-6-columns/"><span>Chess 6 columns</span></a></li>
+	</ul>
+</li>
+	<li id="menu_mobile-item-113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-113"><a href="#"><span>Portfolio</span></a>
+	<ul class="sub-menu">
+		<li id="menu_mobile-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="http://melanie-hanson.themerex.net/portfolio-2-columns/"><span>Portfolio 2 columns</span></a></li>
+		<li id="menu_mobile-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="http://melanie-hanson.themerex.net/portfolio-3-columns/"><span>Portfolio 3 columns</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu_mobile-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="http://melanie-hanson.themerex.net/shop/"><span>Shop</span></a></li>
+</ul>		</nav>		<div class="search_mobile">
+			<div class="search_form_wrap">
+				<form role="search" method="get" class="search_form" action="http://melanie-hanson.themerex.net/">
+					<input type="text" class="search_field" placeholder="" value="" name="s">
+					<button type="submit" class="search_submit" title="Start search">search</button>
+				</form>
+			</div>
+		</div>
+		<div class="socials_mobile"><span class="social_item"><a href="#" target="_blank" class="social_icons social_twitter"><span class="trx_addons_icon-twitter"></span></a></span><span class="social_item"><a href="#" target="_blank" class="social_icons social_facebook"><span class="trx_addons_icon-facebook"></span></a></span><span class="social_item"><a href="#" target="_blank" class="social_icons social_gplus"><span class="trx_addons_icon-gplus"></span></a></span><span class="social_item"><a href="#" target="_blank" class="social_icons social_instagram"><span class="trx_addons_icon-instagram"></span></a></span></div>	</div>
+</div>
+
+			<div class="page_content_wrap scheme_default">
+
+								<div class="content_wrap">
+
+
+
+					<div class="content">
+
+
+<article id="post-424" class="post_item_single post_type_post post_format_ itemscope post-424 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes" itemscope="" itemtype="http://schema.org/BlogPosting">
+
+
+					<div class="post_featured">
+					<img width="987" height="658" src="discover/images/recipe-5.jpg" class="attachment-melanie_hanson-thumb-huge size-melanie_hanson-thumb-huge wp-post-image" alt="Braised Lentils With Cumin-Spiced Chicken" itemprop="url" srcset="discover/images/recipe-5.jpg 2400w, discover/images/recipe-5-300x200.jpg 300w, discover/images/recipe-5-768x512.jpg 768w, discover/images/recipe-5-1024x683.jpg 1024w, discover/images/recipe-5-770x513.jpg 770w, discover/images/recipe-5-370x247.jpg 370w" sizes="(max-width: 987px) 100vw, 987px">				</div><!-- .post_featured -->
+					<div class="post_content entry-content" itemprop="articleBody">
+		<p>And the journey to new lifestyle, new habits and new you begins with a buddy who will guide, inspire and motivate you. Equipped with specially designed tool, you will be able to see your progress and keep adapting with the changes in your body. Guiding you through difficult periods and keeping you motivated throughout. Someone who will help you see the bigger picture, start making those small changes and help convert them into lifestyle practices.
+
+			<p><b>Tools we use :</b> Plan, messaging, phone calls, feedback form. </p>
+			<p><b>Timeline :</b> Start date - Plan Duration.</p>
+		</p>
+
+    <!-- <div class="blog-yumprint-recipe blog-yumprint-standard    " yumprintrecipe="A5fe" itemscope="" itemtype="http://schema.org/Recipe">    <img class="blog-yumprint-google-image" src="images/recipe-5-300x200.jpg" style="display:block;position:absolute;left:-10000px;top:-10000px;" itemprop="image">		<div class="blog-yumprint-photo-top" style="background-image: url(images/recipe-5-300x200.jpg)"></div>	<div class="blog-yumprint-recipe-title" itemprop="name">Discover</div>	<div class="blog-yumprint-recipe-published" itemprop="datePublished">2016-09-21 14:56:05</div>		<img class="blog-yumprint-photo-top-large" src="images/recipe-5-300x200.jpg">	<div class="blog-yumprint-header">		<div class="blog-yumprint-stars-reviews" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating" color="#666666" highlightcolor="#808080" emptycolor="#bfbfbf" rating="0" count="0">
+			<div class="blog-yumprint-star-wrapper">
+				<div class="blog-yumprint-star-container"></div>
+				<meta itemprop="ratingValue" content="0">
+				<meta itemprop="bestRating" content="4">
+				<div class="blog-yumprint-review-count" itemprop="reviewCount" content="0"></div>
+			</div>
+			<div class="blog-yumprint-write-review">Write a review</div>
+		</div>		<div class="blog-yumprint-save blog-yumprint-action"><a href="http://yumprint.com/app/object/A5fe">Save Recipe</a></div>		<div class="blog-yumprint-print blog-yumprint-action">Print</div>	</div>	<div class="blog-yumprint-spacer"></div>	<div class="blog-yumprint-info-bar">		<div class="blog-yumprint-infobar-section">
+			<div class="blog-yumprint-infobar-section-title">Prep Time</div>
+			<div class="blog-yumprint-infobar-section-data" itemprop="prepTime" datetime="PT20M">20 min <span class="value-title" title="PT20M"></span></div>
+		</div>		<div class="blog-yumprint-infobar-section">
+			<div class="blog-yumprint-infobar-section-title">Cook Time</div>
+			<div class="blog-yumprint-infobar-section-data" itemprop="cookTime" datetime="PT25M">25 min <span class="value-title" title="PT25M"></span></div>
+		</div>		<div class="blog-yumprint-infobar-section">
+			<div class="blog-yumprint-infobar-section-title">Total Time</div>
+			<div class="blog-yumprint-infobar-section-data" itemprop="totalTime" datetime="PT45M">45 min <span class="value-title" title="PT45M"></span></div>
+		</div>	</div>	<div class="blog-yumprint-recipe-contents">		<div class="blog-yumprint-photo-middle" style="background-image: url(images/recipe-5-300x200.jpg)"></div>		<div class="blog-yumprint-info-box">		<div class="blog-yumprint-infobox-section">
+			<div class="blog-yumprint-infobox-section-title">Prep Time</div>
+			<div class="duration blog-yumprint-infobox-section-data" itemprop="prepTime" datetime="PT20M">20 min <span class="value-title" title="PT20M"></span></div>
+		</div>		<div class="blog-yumprint-infobox-section">
+			<div class="blog-yumprint-infobox-section-title">Cook Time</div>
+			<div class="duration blog-yumprint-infobox-section-data" itemprop="cookTime" datetime="PT25M">25 min <span class="value-title" title="PT25M"></span></div>
+		</div>		<div class="blog-yumprint-infobox-section">
+			<div class="blog-yumprint-infobox-section-title">Total Time</div>
+			<div class="duration blog-yumprint-infobox-section-data" itemprop="totalTime" datetime="PT45M">45 min <span class="value-title" title="PT45M"></span></div>
+		</div>	</div>	<div class="blog-yumprint-nutrition-box">
+		<div style="display: none;" itemprop="nutrition" itemscope="" itemtype="http://schema.org/NutritionInformation">
+			<div itemprop="calories">859 calories</div>
+			<div itemprop="carbohydrateContent">222 g</div>
+			<div itemprop="cholesterolContent">0 g</div>
+			<div itemprop="fatContent">0 g</div>
+			<div itemprop="proteinContent">1 g</div>
+			<div itemprop="saturatedFatContent">0 g</div>
+			<div itemprop="servingSize">1060 g</div>
+			<div itemprop="sodiumContent">32 g</div>
+			<div itemprop="sugarContent">214 g</div>
+			<div itemprop="transFatContent">0 g</div>
+			<div itemprop="unsaturatedFatContent">0 g</div>
+		</div>
+		<div class="blog-yumprint-nutrition-header">Nutrition Facts</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-serving-size-container">
+			<div class="blog-yumprint-nutrition-left">Serving Size</div>
+			<div class="blog-yumprint-nutrition-right">1060g</div>
+		</div>		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-very-thick-line blog-yumprint-nutrition-bold blog-yumprint-nutrition-amount">Amount Per Serving</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-line">
+			<div class="blog-yumprint-nutrition-left"><span class="blog-yumprint-nutrition-bold">Calories</span> <span class="blog-yumprint-nutrition-calories-value">859</span></div>
+			<div class="blog-yumprint-nutrition-right">Calories from Fat <span class="blog-yumprint-nutrition-calories-from-fat-value">4</span></div>
+		</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-bold blog-yumprint-nutrition-thick-line">
+			<div class="blog-yumprint-nutrition-right">% Daily Value *</div>
+		</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-line">
+			<div class="blog-yumprint-nutrition-left">Total Fat <span class="blog-yumprint-nutrition-total-fat-value">0</span>g</div>
+			<div class="blog-yumprint-nutrition-right blog-yumprint-nutrition-bold"><span class="blog-yumprint-nutrition-total-fat-daily-value">1</span>%</div>
+		</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-indent blog-yumprint-nutrition-line">
+			<div class="blog-yumprint-nutrition-left">Saturated Fat <span class="blog-yumprint-nutrition-saturated-fat-value">0</span>g</div>
+			<div class="blog-yumprint-nutrition-right blog-yumprint-nutrition-bold"><span class="blog-yumprint-nutrition-saturated-fat-daily-value">0</span>%</div>
+		</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-indent blog-yumprint-nutrition-line"><span class="blog-yumprint-nutrition-italic">Trans</span> Fat <span class="blog-yumprint-nutrition-trans-fat-value">0</span>g</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-indent blog-yumprint-nutrition-line">Polyunsaturated Fat <span class="blog-yumprint-nutrition-pu-fat-value">0</span>g</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-indent blog-yumprint-nutrition-line">Monounsaturated Fat <span class="blog-yumprint-nutrition-mu-fat-value">0</span>g</div>
+        <div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-line">
+			<div class="blog-yumprint-nutrition-left">Cholesterol <span class="blog-yumprint-nutrition-cholesterol-value">0</span>mg</div>
+			<div class="blog-yumprint-nutrition-right blog-yumprint-nutrition-bold"><span class="blog-yumprint-nutrition-cholesterol-daily-value">0</span>%</div>
+		</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-line">
+			<div class="blog-yumprint-nutrition-left">Sodium <span class="blog-yumprint-nutrition-sodium-value">32</span>mg</div>
+			<div class="blog-yumprint-nutrition-right blog-yumprint-nutrition-bold"><span class="blog-yumprint-nutrition-sodium-daily-value">1</span>%</div>
+		</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-line">
+			<div class="blog-yumprint-nutrition-left">Total Carbohydrates <span class="blog-yumprint-nutrition-total-carbohydrates-value">222</span>g</div>
+			<div class="blog-yumprint-nutrition-right blog-yumprint-nutrition-bold"><span class="blog-yumprint-nutrition-total-carbohydrates-daily-value">74</span>%</div>
+		</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-indent blog-yumprint-nutrition-line">
+			<div class="blog-yumprint-nutrition-left">Dietary Fiber <span class="blog-yumprint-nutrition-dietary-fiber-value">4</span>g</div>
+			<div class="blog-yumprint-nutrition-right blog-yumprint-nutrition-bold"><span class="blog-yumprint-nutrition-dietary-fiber-daily-value">14</span>%</div>
+		</div>
+        <div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-indent blog-yumprint-nutrition-line">Sugars <span class="blog-yumprint-nutrition-sugars-value">214</span>g</div>
+        <div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-line blog-yumprint-nutrition-protein">Protein <span class="blog-yumprint-nutrition-protein-value">1</span>g</div>
+		<div class="blog-yumprint-nutrition-very-thick-line "></div>
+        <div class="blog-yumprint-nutrition-line"><div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-vitamin-wrap blog-yumprint-nutrition-vitamin-left"><div class="blog-yumprint-nutrition-vitamin">Vitamin A</div><div class="blog-yumprint-nutrition-vitamin-value"><span class="blog-yumprint-nutrition-vitamin-a-value">2</span>%</div></div><div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-vitamin-wrap"><div class="blog-yumprint-nutrition-vitamin">Vitamin C</div><div class="blog-yumprint-nutrition-vitamin-value"><span class="blog-yumprint-nutrition-vitamin-c-value">24</span>%</div></div></div>
+        <div class="blog-yumprint-nutrition-line"><div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-vitamin-wrap blog-yumprint-nutrition-vitamin-left"><div class="blog-yumprint-nutrition-vitamin">Calcium</div><div class="blog-yumprint-nutrition-vitamin-value"><span class="blog-yumprint-nutrition-vitamin-calcium-value">3</span>%</div></div><div class="blog-yumprint-nutrition-item blog-yumprint-nutrition-vitamin-wrap"><div class="blog-yumprint-nutrition-vitamin">Iron</div><div class="blog-yumprint-nutrition-vitamin-value"><span class="blog-yumprint-nutrition-iron-value">3</span>%</div></div></div>
+        <div class="blog-yumprint-nutrition-last-item blog-yumprint-nutrition-line">* Percent Daily Values are based on a 2,000 calorie diet. Your Daily Values may be higher or lower depending on your calorie needs.</div>
+		<div class="blog-yumprint-nutrition-item blog-yumprint-report-error-wrapper">
+			<a href="mailto:nutrition@yumprint.com?subject=Nutrition suggestion for recipe id A5fe" target="_blank" class="blog-yumprint-report-error">Does this look wrong?</a>
+		</div>
+	</div>		<div class="blog-yumprint-ingredient-section" yumprintsection="0">                <div class="blog-yumprint-subheader">Ingredients</div>			<ol class="blog-yumprint-ingredients">				<li class="blog-yumprint-ingredient-item" yumprintitem="0" itemprop="ingredients">Blueberry "Syrup"</li>				<li class="blog-yumprint-ingredient-item" yumprintitem="1" itemprop="ingredients">1 cup fresh blueberries</li>				<li class="blog-yumprint-ingredient-item" yumprintitem="2" itemprop="ingredients">1 cup water</li>				<li class="blog-yumprint-ingredient-item" yumprintitem="3" itemprop="ingredients">1 cup white sugar</li>				<li class="blog-yumprint-ingredient-item" yumprintitem="4" itemprop="ingredients">Flavored Water Beverage</li>				<li class="blog-yumprint-ingredient-item" yumprintitem="5" itemprop="ingredients">Lots of crushed ice</li>				<li class="blog-yumprint-ingredient-item" yumprintitem="6" itemprop="ingredients">4 Izze Mandarine-Lime Sparkling Waters</li>			</ol>
+		</div>		<div class="blog-yumprint-method-section" yumprintsection="1">			<div class="blog-yumprint-subheader">Instructions</div>			<ol class="blog-yumprint-methods" itemprop="recipeInstructions">				<li class="blog-yumprint-method-item" yumprintitem="0">1.Place the fresh blueberries, water, and sugar in a saucepan over medium high heat.</li>				<li class="blog-yumprint-method-item" yumprintitem="1">2.Bring to a boil and then reduce the heat and simmer for about 15 minutes.</li>				<li class="blog-yumprint-method-item" yumprintitem="2">3.If desired, rim the glasses in sugar (I LOVE this simple addition to the flavor of the drink!) Simply press the top of the glass in a bowl of water and then the wetted top of the glass into a small bowl of sugar. Shake off the excess.</li>				<li class="blog-yumprint-method-item" yumprintitem="3">4.Fill up 4 glasses to the top with crushed ice - really pack in the ice!</li>				<li class="blog-yumprint-method-item" yumprintitem="4">5.Fill up the glass with the blueberry syrup. Allow the syrup to "settle" into the ice and then fill up the glass with Mandarine-Lime Sparkling Water.</li>				<li class="blog-yumprint-method-item" yumprintitem="5">6.Stir and add in some freshly squeezed lime.</li>				<li class="blog-yumprint-method-item" yumprintitem="6">7.If desired garnish the glass with fresh mint and a small skewer with blueberries.</li>			</ol>
+		</div>    <div class="author blog-yumprint-author" itemprop="author">By Melanie Hanson</div>		<div class="blog-yumprint-nutrition-bar">
+			<div class="blog-yumprint-nutrition-beta">beta</div>
+            <div class="blog-yumprint-nutrition-section">
+                <div class="blog-yumprint-nutrition-section-title">calories</div>
+                <div class="blog-yumprint-nutrition-section-data">859</div>
+            </div>
+            <div class="blog-yumprint-nutrition-section">
+                <div class="blog-yumprint-nutrition-section-title">fat</div>
+                <div class="blog-yumprint-nutrition-section-data">0g</div>
+            </div>
+            <div class="blog-yumprint-nutrition-section">
+                <div class="blog-yumprint-nutrition-section-title">protein</div>
+                <div class="blog-yumprint-nutrition-section-data">1g</div>
+            </div>
+            <div class="blog-yumprint-nutrition-section">
+                <div class="blog-yumprint-nutrition-section-title">carbs</div>
+                <div class="blog-yumprint-nutrition-section-data">222g</div>
+            </div>
+            <div class="blog-yumprint-nutrition-more">more</div>
+        </div>
+        <div class="blog-yumprint-nutrition-border"></div>    <div class="blog-yumprint-recipe-source">Melanie Hanson http://melanie-hanson.themerex.net/</div>		</div>
+	</div> -->
+
+</div></article>
+
+					</div><!-- </.content> -->
+
+						<!-- <div class="sidebar right widget_area scheme_light" role="complementary">
+		<div class="sidebar_inner">
+			<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://melanie-hanson.themerex.net/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Search">
+			</form></aside><aside id="categories-2" class="widget widget_categories"><h5 class="widget_title">Categories</h5>		<ul>
+	<li class="cat-item cat-item-74"><a href="http://melanie-hanson.themerex.net/category/baby-parenting/">Baby &amp; Parenting</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://melanie-hanson.themerex.net/category/blogging/">Blogging</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://melanie-hanson.themerex.net/category/fitness/">Fitness</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://melanie-hanson.themerex.net/category/health/">Health</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://melanie-hanson.themerex.net/category/life-style/">Life Style</a>
+</li>
+	<li class="cat-item cat-item-75"><a href="http://melanie-hanson.themerex.net/category/recipes/">Recipes</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://melanie-hanson.themerex.net/category/self-love/">Self Love</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://melanie-hanson.themerex.net/category/travel/">Travel</a>
+</li>
+		</ul>
+</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h5 class="widget_title">Comments</h5><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">John Snow</span> on <a href="http://melanie-hanson.themerex.net/product/smart-fitness-tracker-wearable-waterproof/#comment-12">Smart Fitness Tracker Wearable Waterproof</a></li><li class="recentcomments"><span class="comment-author-link">Cindy Jefferson</span> on <a href="http://melanie-hanson.themerex.net/product/ultrastrong-pro-yoga-and-pilates-mat/#comment-11">Ultrastrong Pro Yoga and Pilates Mat</a></li><li class="recentcomments"><span class="comment-author-link">Cindy Jefferson</span> on <a href="http://melanie-hanson.themerex.net/product/weight-loss-programs-techniques-recipes/#comment-10">Weight Loss Programs: Techniques &#038; Recipes</a></li></ul></aside><aside id="trx_addons_widget_calendar-2" class="widget widget_calendar"><h5 class="widget_title">Calendar</h5><table id="wp-calendar">
+	<caption>March 2016</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">Mon</th>
+		<th scope="col" title="Tuesday">Tue</th>
+		<th scope="col" title="Wednesday">Wed</th>
+		<th scope="col" title="Thursday">Thu</th>
+		<th scope="col" title="Friday">Fri</th>
+		<th scope="col" title="Saturday">Sat</th>
+		<th scope="col" title="Sunday">Sun</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev" class="pad">&nbsp;</td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next"><a href="http://melanie-hanson.themerex.net/2016/06/">Jun &raquo;</a></td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="1" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+	</tr>
+	<tr>
+		<td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+	</tr>
+	<tr>
+		<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+	</tr>
+	<tr>
+		<td><a href="http://melanie-hanson.themerex.net/2016/03/21/" aria-label="Posts published on March 21, 2016">21</a></td><td><a href="http://melanie-hanson.themerex.net/2016/03/22/" aria-label="Posts published on March 22, 2016">22</a></td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+	</tr>
+	<tr>
+		<td>28</td><td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="3">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></aside><aside id="trx_addons_widget_recent_posts-2" class="widget widget_recent_posts"><h5 class="widget_title">Recent Posts</h5><article class="post_item with_thumb"><div class="post_thumb"><a href="http://melanie-hanson.themerex.net/2016/09/14/how-to-use-a-bullet-journal-for-health-and-wellbeing/"><img width="2400" height="1408" src="images/image-1.jpg" class="attachment-trx_addons-thumb-med size-trx_addons-thumb-med wp-post-image" alt="How To Use A Bullet Journal For Health And Wellbeing" srcset="images/image-1.jpg 2400w, images/image-1-300x176.jpg 300w, images/image-1-768x451.jpg 768w, images/image-1-1024x601.jpg 1024w, images/image-1-770x452.jpg 770w, images/image-1-370x217.jpg 370w" sizes="(max-width: 2400px) 100vw, 2400px"></a></div><div class="post_content"><h6 class="post_title"><a href="http://melanie-hanson.themerex.net/2016/09/14/how-to-use-a-bullet-journal-for-health-and-wellbeing/">How To Use A Bullet Journal For Health And Wellbeing</a></h6><div class="post_info"></div></div></article><article class="post_item with_thumb"><div class="post_content"><h6 class="post_title"><a href="http://melanie-hanson.themerex.net/2016/09/14/how-to-be-summer-body-confident/">How To Be Summer Body Confident</a></h6><div class="post_info"></div></div></article></aside><aside id="tag_cloud-2" class="widget widget_tag_cloud"><h5 class="widget_title">Tags</h5><div class="tagcloud"><a href="http://melanie-hanson.themerex.net/tag/beauty/" class="tag-link-22 tag-link-position-1" title="6 topics" style="font-size: 17.506172839506pt;">Beauty</a>
+<a href="http://melanie-hanson.themerex.net/tag/blog-biz/" class="tag-link-28 tag-link-position-2" title="5 topics" style="font-size: 16.296296296296pt;">Blog + Biz</a>
+<a href="http://melanie-hanson.themerex.net/tag/camera/" class="tag-link-85 tag-link-position-3" title="1 topic" style="font-size: 8pt;">camera</a>
+<a href="http://melanie-hanson.themerex.net/tag/chilled/" class="tag-link-87 tag-link-position-4" title="1 topic" style="font-size: 8pt;">chilled</a>
+<a href="http://melanie-hanson.themerex.net/tag/coctail/" class="tag-link-88 tag-link-position-5" title="1 topic" style="font-size: 8pt;">coctail</a>
+<a href="http://melanie-hanson.themerex.net/tag/cool/" class="tag-link-86 tag-link-position-6" title="1 topic" style="font-size: 8pt;">cool</a>
+<a href="http://melanie-hanson.themerex.net/tag/dark/" class="tag-link-97 tag-link-position-7" title="2 topics" style="font-size: 11.111111111111pt;">dark</a>
+<a href="http://melanie-hanson.themerex.net/tag/fitness/" class="tag-link-20 tag-link-position-8" title="4 topics" style="font-size: 14.913580246914pt;">Fitness</a>
+<a href="http://melanie-hanson.themerex.net/tag/food/" class="tag-link-26 tag-link-position-9" title="10 topics" style="font-size: 20.79012345679pt;">Food</a>
+<a href="http://melanie-hanson.themerex.net/tag/hardware/" class="tag-link-93 tag-link-position-10" title="5 topics" style="font-size: 16.296296296296pt;">hardware</a>
+<a href="http://melanie-hanson.themerex.net/tag/health-and-wellbeing/" class="tag-link-19 tag-link-position-11" title="4 topics" style="font-size: 14.913580246914pt;">Health and Wellbeing</a>
+<a href="http://melanie-hanson.themerex.net/tag/hipster/" class="tag-link-84 tag-link-position-12" title="12 topics" style="font-size: 22pt;">hipster</a>
+<a href="http://melanie-hanson.themerex.net/tag/holidays/" class="tag-link-89 tag-link-position-13" title="5 topics" style="font-size: 16.296296296296pt;">holidays</a>
+<a href="http://melanie-hanson.themerex.net/tag/light/" class="tag-link-90 tag-link-position-14" title="7 topics" style="font-size: 18.37037037037pt;">light</a>
+<a href="http://melanie-hanson.themerex.net/tag/mac/" class="tag-link-96 tag-link-position-15" title="3 topics" style="font-size: 13.185185185185pt;">mac</a>
+<a href="http://melanie-hanson.themerex.net/tag/organization/" class="tag-link-27 tag-link-position-16" title="4 topics" style="font-size: 14.913580246914pt;">Organization</a>
+<a href="http://melanie-hanson.themerex.net/tag/place/" class="tag-link-91 tag-link-position-17" title="3 topics" style="font-size: 13.185185185185pt;">place</a>
+<a href="http://melanie-hanson.themerex.net/tag/recipes/" class="tag-link-30 tag-link-position-18" title="4 topics" style="font-size: 14.913580246914pt;">Recipes</a>
+<a href="http://melanie-hanson.themerex.net/tag/retro/" class="tag-link-94 tag-link-position-19" title="2 topics" style="font-size: 11.111111111111pt;">retro</a>
+<a href="http://melanie-hanson.themerex.net/tag/self-love/" class="tag-link-21 tag-link-position-20" title="5 topics" style="font-size: 16.296296296296pt;">Self Love</a>
+<a href="http://melanie-hanson.themerex.net/tag/slim/" class="tag-link-29 tag-link-position-21" title="6 topics" style="font-size: 17.506172839506pt;">Slim</a>
+<a href="http://melanie-hanson.themerex.net/tag/style/" class="tag-link-25 tag-link-position-22" title="4 topics" style="font-size: 14.913580246914pt;">Style</a>
+<a href="http://melanie-hanson.themerex.net/tag/training/" class="tag-link-31 tag-link-position-23" title="5 topics" style="font-size: 16.296296296296pt;">Training</a>
+<a href="http://melanie-hanson.themerex.net/tag/video-2/" class="tag-link-92 tag-link-position-24" title="6 topics" style="font-size: 17.506172839506pt;">video-2</a>
+<a href="http://melanie-hanson.themerex.net/tag/watch/" class="tag-link-95 tag-link-position-25" title="1 topic" style="font-size: 8pt;">watch</a>
+<a href="http://melanie-hanson.themerex.net/tag/yoga/" class="tag-link-32 tag-link-position-26" title="6 topics" style="font-size: 17.506172839506pt;">Yoga</a></div>
+</aside><aside id="meta-2" class="widget widget_meta"><h5 class="widget_title">Meta</h5>			<ul>
+						<li><a href="http://melanie-hanson.themerex.net/wp-login.php">Log in</a></li>
+			<li><a href="http://melanie-hanson.themerex.net/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://melanie-hanson.themerex.net/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+		</aside>		</div>
+	</div> -->
+	<!-- /.sidebar -->
+	</div><!-- </.content_wrap> -->			</div><!-- </.page_content_wrap> -->
+
+
+	<footer class="site_footer_wrap scheme_dark">
+
+			<div class="copyright_wrap scheme_">
+					<div class="copyright_wrap_inner">
+							<div class="content_wrap">
+									<div class="sc_columns">
+											<div class="column1">
+													<div class="column1_inner">
+															<div class="menu_footer_wrap">
+																	<div class="menu_footer_wrap_inner">
+																			<nav class="menu_footer_nav_area">
+																					<ul id="menu_footer" class="menu_footer_nav">
+																							<li id="menu-item-171" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-171"><a href="/"><span>Home</span></a></li>
+																							<li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="/about"><span>About Us</span></a></li>
+																							<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="/services"><span>Our Services</span></a></li>
+																							<li id="menu-item-442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a href="/blog"><span>Blog</span></a></li>
+																							<li id="menu-item-442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a href="/calculate"><span>Calculator</span></a></li>
+																							<li id="menu-item-442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a href="/process"><span>Process</span></a></li>
+																							<li id="menu-item-442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a href="/contact"><span>Get In Touch</span></a></li>
+																					</ul>
+																			</nav>
+																	</div>
+															</div>
+													</div>
+											</div>
+											<div class="column2">
+													<div class="column2_inner">
+															<div class="copyright_text">© 2017 MYHEALTHBUDDY
+																	<br><span style="color: #fff;font-size: 14px;">568 Udyog Vihar, Phase-5,Gurgaon</span>
+																	<!--  <a href="http://themerex.net/terms-of-service/">Terms of Use</a> &amp; <a href="http://themerex.net/privacy-policy/">Privacy Policy</a></div> -->
+																	<div class="socials_footer_wrap socials_wrap">
+																			<div class="socials_footer_wrap_inner">
+																					<span class="social_item"><a href="https://twitter.com/Myhealthbuddy11" target="_blank" class="social_icons "><span class="trx_addons_icon-twitter"></span></a>
+																					</span><span class="social_item"><a href="https://www.facebook.com/Myhealthbuddy/" target="_blank" class="social_icons "><span class="trx_addons_icon-facebook"></span></a>
+																					</span><span class="social_item"><a href="https://www.instagram.com/myhealthbuddy/" target="_blank" class="social_icons "><span class="trx_addons_icon-instagram"></span></a>
+																					</span>
+																			</div>
+																	</div>
+															</div>
+													</div>
+											</div>
+
+
+									</div>
+							</div>
+					</div>
+
+	</footer>
+<!-- /.site_footer_wrap -->
+
+		</div><!-- /.page_wrap -->
+
+	</div><!-- /.body_wrap -->
+
+
+			<!-- Post/page views count increment -->
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				setTimeout(function() {
+					jQuery.post(TRX_ADDONS_STORAGE['ajax_url'], {
+						action: 'post_counter',
+						nonce: TRX_ADDONS_STORAGE['ajax_nonce'],
+						post_id: 424,
+						views: 1
+					}).done(function(response) {
+						var rez = {};
+						try {
+							rez = JSON.parse(response);
+						} catch (e) {
+							rez = { error: TRX_ADDONS_STORAGE['ajax_error'] };
+							console.log(response);
+						}
+						if (rez.error === '') {
+							jQuery('.post_counters_single .post_counters_views .post_counters_number').html(rez.counter);
+						}
+					});
+				}, 10);
+			});
+		</script>
+		<link rel="stylesheet" id="melanie_hanson-inline-styles-css" href="css/__inline.css" type="text/css" media="all">
+<style id="melanie_hanson-inline-styles-inline-css" type="text/css">
+.melanie_hanson_inline_0{background-image: url(discover/images/background-5.jpg);}
+</style>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":"3963447568.3a81a9f.33ac3f35a06c42d7aa378eded1827f4a"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/sb-instagram.min.js"></script>
+<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var TRX_ADDONS_STORAGE = {"ajax_url":"http:\/\/melanie-hanson.themerex.net\/wp-admin\/admin-ajax.php","ajax_nonce":"39371c548c","site_url":"http:\/\/melanie-hanson.themerex.net","vc_edit_mode":"0","popup_engine":"magnific","user_logged_in":"0","email_mask":"^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$","msg_ajax_error":"Invalid server answer!","msg_magnific_loading":"Loading image","msg_magnific_error":"Error loading image","msg_error_like":"Error saving your like! Please, try again later.","msg_field_name_empty":"The name can't be empty","msg_field_email_empty":"Too short (or empty) email address","msg_field_email_not_valid":"Invalid email address","msg_field_text_empty":"The message text can't be empty","msg_send_complete":"Send message complete!","msg_send_error":"Transmit failed!","scroll_to_anchor":"1","update_location_from_anchor":"0","msg_sc_googlemap_not_avail":"Googlemap service is not available","msg_sc_googlemap_geocoder_error":"Error while geocode address"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/trx_addons.js"></script>
+<script type="text/javascript" src="js/jquery.blockUI.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/2016\/03\/22\/braised-lentils-with-cumin-spiced-chicken\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/woocommerce.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/2016\/03\/22\/braised-lentils-with-cumin-spiced-chicken\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/cart-fragments.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var MELANIE_HANSON_STORAGE = {"ajax_url":"http:\/\/melanie-hanson.themerex.net\/wp-admin\/admin-ajax.php","ajax_nonce":"39371c548c","site_url":"http:\/\/melanie-hanson.themerex.net","user_logged_in":"","mobile_layout_width":"959","menu_cache":"1","menu_stretch":"1","menu_animation_in":"fadeInUpSmall","menu_animation_out":"fadeOutDownSmall","background_video":"","use_mediaelements":"1","message_maxlength":"1000","site_scheme":"scheme_default","admin_mode":"","email_mask":"^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$","strings":{"ajax_error":"Invalid server answer!","error_global":"Error data validation!","name_empty":"The name can&#039;t be empty","name_long":"Too long name","email_empty":"Too short (or empty) email address","email_long":"Too long email address","email_not_valid":"Invalid email address","text_empty":"The message text can&#039;t be empty","text_long":"Too long message text","search_error":"Search error! Try again later.","send_complete":"Send message complete!","send_error":"Transmit failed!"},"menu_hover":"fade","menu_hover_color":"#ff194f","button_hover":"antiman","alter_link_color":"#4c4c4c"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/__scripts.js"></script>
+<script type="text/javascript" src="discover/js/comment-reply.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Download File":"Download File","Download Video":"Download Video","Play":"Play","Pause":"Pause","Captions\/Subtitles":"Captions\/Subtitles","None":"None","Time Slider":"Time Slider","Skip back %1 seconds":"Skip back %1 seconds","Video Player":"Video Player","Audio Player":"Audio Player","Volume Slider":"Volume Slider","Mute Toggle":"Mute Toggle","Unmute":"Unmute","Mute":"Mute","Use Up\/Down Arrow keys to increase or decrease volume.":"Use Up\/Down Arrow keys to increase or decrease volume.","Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds."}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+<script type="text/javascript" src="js/wp-mediaelement.min.js"></script>
+<script type="text/javascript" src="js/wp-embed.min.js"></script>
+<a href="#" class="trx_addons_scroll_to_top" title="Scroll to top"><i class="icon icon-up"></i></a>
+</body>
+</html>

@@ -1,0 +1,124 @@
+html,body,div,h1,h2,h3,h4,h5,table,tr {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: helvetica;
+}
+
+.heading {
+  font-size: 45px;
+  padding-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.i-b {
+  display: inline-block;
+}
+
+.feed .image img {
+  width: 360px;
+  height: auto;
+  margin: 15px;
+}
+
+.likes-container {
+  color: #5353e9;
+  border-bottom: 1px solid;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.likes-container:hover {
+  color: #1818e1;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.left-image {
+  display: inline-block;
+}
+
+.right-text {
+  display: inline-block;
+  position: relative;
+  top: -13px;
+  margin-left: 10px;
+}
+
+.left-image img {
+  width: 50px;
+  border-radius: 12px;
+}
+
+.likes-loop {
+  padding: 20px 60px;
+  background: white;
+  margin-top: 50px;
+  position: relative;
+  width: 50%;
+  display: inline-block;
+}
+
+.loop {
+  text-align: left;
+}
+
+.single-like {
+  margin-bottom: 20px;
+}
+
+.cross-icon {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.table-display{
+  display: inline-block;
+border: 1px solid #4c94d2;
+border-collapse: collapse;
+width: 500px;
+/*border-radius: 25px;*/
+}
+
+.comments-container{
+  padding: 30px;
+}
+
+.tr-class {
+  border: 1px solid #4c94d2;
+  column-span: all;
+  width:300px;
+  background-color: #6093C6; 
+  color: Black;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+
+  border-radius: 10px;
+}
+
+.tr: nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tr-class td{
+  column-span: all;
+  width:inherit;
+  border: 1px solid #000000;
+  padding : 0px;
+}

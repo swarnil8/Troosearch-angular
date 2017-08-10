@@ -1,0 +1,286 @@
+{
+   "checksum": "93e1f9a356dcf7fc1d1a2d48347ea61b",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13059223124704788",
+            "id": "13",
+            "meta_info": {
+               "stars.id": "ssc_cd107c243e41b43a",
+               "stars.isSynced": "true"
+            },
+            "name": "Bookmarks",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "chrome://bookmarks/"
+         }, {
+            "date_added": "13012322020451289",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13137836035166328",
+               "stars.id": "ssc_45f8bda170260f0d",
+               "stars.imageData": "Cg5sbjVqSk1Jbm5ZT3FfTRJ4CnBodHRwOi8vaWEubWVkaWEtaW1kYi5jb20vaW1hZ2VzL00vTVY1Qk16WTRNVFV6TmpjNE0xNUJNbDVCYW5CblhrRnRaVGN3TkRJNE9UY3hOQUBALl9WMV9TWDMxMF9DUjAsMzAsMzEwLDE2N18uanBnEPgBGIUBGmMKW2h0dHA6Ly90Mi5nc3RhdGljLmNvbS9pbWFnZXM/cT10Ym46QU5kOUdjVFBvbzNDSUpTdlpnOFRXdVV0RUExRVNQYU9yNGNENjJXYzFfbzVKM3NJSnVXd091cmYQ+AEYhQEiHwgBEPgBGIUBIOg9QgYSBAAAW3xKCmltYWdlL2pwZWc=",
+               "stars.pageData": "Ig5wS3BKdjAzZHh1MW1KTQ==",
+               "stars.type": "2",
+               "stars.version": "sync.server.Chrome41"
+            },
+            "name": "IMDb: Genres",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.imdb.com/genre/?ref_=sr_1"
+         }, {
+            "date_added": "13097484841836088",
+            "id": "15",
+            "meta_info": {
+               "last_visited_desktop": "13136377077322597"
+            },
+            "name": "Live Cricket 2015 free Live Streaming, Ind vs Aus live",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://cricket-365.nl/watch/live-cricket-streaming-1.html?"
+         }, {
+            "date_added": "13111743494240986",
+            "id": "17",
+            "meta_info": {
+               "last_visited_desktop": "13139579448391021"
+            },
+            "name": "jQuery UI",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://jqueryui.com/"
+         }, {
+            "date_added": "13112435481548041",
+            "id": "18",
+            "meta_info": {
+               "last_visited_desktop": "13136888001468688"
+            },
+            "name": "Malvika is peculiar about color of balloons | CodeChef",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.codechef.com/CHN15MOS/problems/CHN09"
+         }, {
+            "date_added": "13112435498036662",
+            "id": "19",
+            "name": "Skyscraper Equilibrium | CodeChef",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.codechef.com/LOCJUN16/problems/SKYSCR"
+         }, {
+            "date_added": "13134754346206715",
+            "id": "20",
+            "meta_info": {
+               "last_visited_desktop": "13143641285022747"
+            },
+            "name": "Bhabiji Ghar Par Hain - AndTV | Watch Bhabiji Ghar Par Hain TV Serial Online for Free - Ozee",
+            "sync_transaction_version": "39",
+            "type": "url",
+            "url": "http://www.ozee.com/shows/bhabi-ji-ghar-par-hai"
+         }, {
+            "date_added": "13135693226442419",
+            "id": "21",
+            "meta_info": {
+               "last_visited_desktop": "13139525343061548"
+            },
+            "name": "TVFPlay",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://tvfplay.com/episode/1/158/182/915"
+         }, {
+            "date_added": "13135801379585908",
+            "id": "22",
+            "meta_info": {
+               "last_visited_desktop": "13140186571269116"
+            },
+            "name": "Watch Hindi Movies Online - Bollywood Full Movies",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://hindimoviesonlines.co/"
+         }, {
+            "date_added": "13135890964956828",
+            "id": "23",
+            "name": "Dropbox - dirty",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.dropbox.com/sh/jj44zkkve2yqcwt/AACeDGi3wf9fczQqHiIJs3-Qa?dl=0"
+         }, {
+            "date_added": "13135973414059820",
+            "id": "24",
+            "meta_info": {
+               "last_visited_desktop": "13143842149393791"
+            },
+            "name": "IPL 2017 Live Streaming I Watch IPL Live Cricket Matches Online HD |Live Cricket Streaming | Watch Live Cricket Online Match Tv HD Free",
+            "sync_transaction_version": "48",
+            "type": "url",
+            "url": "http://www.livecricz.com/2017/03/ipl-2017-live-streaming.html"
+         }, {
+            "date_added": "13138313792419735",
+            "id": "26",
+            "meta_info": {
+               "last_visited_desktop": "13138313792420186"
+            },
+            "name": "Open Positions | Careers | Cvent",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.cvent.com/en/india/open-positions/"
+         }, {
+            "date_added": "13139956757828732",
+            "id": "27",
+            "meta_info": {
+               "last_visited_desktop": "13140003981564942"
+            },
+            "name": "AMCAT - Jobs Page",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.myamcat.com/jobs/description/java-developer-job-for-fresher-in-remaxys-infotech-private-limited-in-noida/20588"
+         }, {
+            "date_added": "13141187186955980",
+            "id": "28",
+            "meta_info": {
+               "last_visited_desktop": "13141767755330064"
+            },
+            "name": "Watch Main Hoon Na For Free On 123Movies.to",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://gomovies.to/film/main-hoon-na-8462/watching.html?ep=237193"
+         }, {
+            "date_added": "13143736888174948",
+            "id": "34",
+            "meta_info": {
+               "last_visited_desktop": "13143832933229746"
+            },
+            "name": "Hindi Movies | HighQuality",
+            "sync_transaction_version": "46",
+            "type": "url",
+            "url": "http://highquality.in/category/hindi-movies/"
+         }, {
+            "date_added": "13143849733688396",
+            "id": "37",
+            "meta_info": {
+               "last_visited_desktop": "13143849733779592"
+            },
+            "name": "Bank Chor (2017) Hindi Full Movie Watch Online Free | HighQuality",
+            "sync_transaction_version": "52",
+            "type": "url",
+            "url": "http://highquality.in/bank-chor-2017-hindi-full-movie-watch-online-free/"
+         } ],
+         "date_added": "13141749741518549",
+         "date_modified": "13143849733688396",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13059679817872925",
+            "id": "7",
+            "meta_info": {
+               "stars.id": "c_gpqui24x8q6d",
+               "stars.note": "",
+               "stars.pageData": "Eo4BR29vZ2xlIEdyb3VwcyBhbGxvd3MgeW91IHRvIGNyZWF0ZSBhbmQgcGFydGljaXBhdGUgaW4gb25saW5lIGZvcnVtcyBhbmQgZW1haWwtYmFzZWQgZ3JvdXBzIHdpdGggYSByaWNoIGV4cGVyaWVuY2UgZm9yIGNvbW11bml0eSBjb252ZXJzYXRpb25zLiIOWGh4cHBTclYtTzdsZ00=",
+               "stars.type": "2",
+               "stars.version": "sync.server.Chrome41"
+            },
+            "name": "(15) IITM_MCA1417 - Google Groups",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://groups.google.com/forum/?hl=en#!forum/iitm_mca1417"
+         }, {
+            "date_added": "13067791698112000",
+            "id": "8",
+            "meta_info": {
+               "stars.id": "c_54ysi5v2uh5v",
+               "stars.imageData": "Cg42WVRJdXVFQjJ6SWJETRK2AQqtAWh0dHA6Ly9yZXMuY2xvdWRpbmFyeS5jb20va2FydHJvY2tldC9pbWFnZS9mZXRjaC93XzMwMCUyQ3FfOTAlMkNoXzUwMCUyQ2NfcGFkL2h0dHAlM0ElMkYlMkZrYXJ0cm9ja2V0LW10cC5zMy5hbWF6b25hd3MuY29tJTJGYWxsLXN0b3JlcyUyRmltYWdlX3NtYXVnaXQlMkZkYXRhJTJGREM1ODQtMDEuanBnEKwCGPQDGmMKW2h0dHA6Ly90MS5nc3RhdGljLmNvbS9pbWFnZXM/cT10Ym46QU5kOUdjVHIyQkVIUFBtSV94Rk9hc0ZUOVFnNkNyUm1aTkdjY29URTFMSnEzd1Vfd3BzRlA4TUcQrgEYogIiHwgBEK4BGKICILkZQgYSBJv5f39KCmltYWdlL2pwZWc=",
+               "stars.note": "",
+               "stars.pageData": "Ek9NeSBBY2NvdW50V2lzaCBMaXN0ICgwKUNoZWNrb3V0TG9naW4gV2VsY29tZSB2aXNpdG9yIHlvdSBjYW4gTG9naW4gb3IgUmVnaXN0ZXIuIg5zSGZjcnRmYy1acENuTQ==",
+               "stars.type": "2",
+               "stars.version": "sync.server.Clank39"
+            },
+            "name": "Mobile Cam Lens",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.smaugit.com/photography-135/mobile-cam-lens"
+         }, {
+            "date_added": "13068365697155000",
+            "id": "9",
+            "meta_info": {
+               "stars.flags": "0",
+               "stars.id": "c_64oei64kl9nv",
+               "stars.imageData": "Cg5VMGhVZmVmNlpFdUVoTRK4AQqvAWh0dHA6Ly8xLmJwLmJsb2dzcG90LmNvbS8tQlB2M09JS2tEY2svVDB1cXFVQnl1M0kvQUFBQUFBQUFBVTgvQ240QjVzWWpzemcvczMyMC9jJTJCcHJvZ3JhbSUyQnRvJTJCaW1wbGVtZW50JTJCZGVxdWV1ZSUyQiUyOGlucHV0LXJlc3RyaWN0ZWQlMkJhbmQlMkJvdXRwdXQtJTJCcmVzdHJpY3RlZCUyOS5wbmcQwAIYnAIaYwpbaHR0cDovL3QzLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NSaE82NmlYM01Ldm5yUjdHSkVxV2pRMzZ5d0JqYXpSNERaRVdnSFpvYTZKaXk5djdiRBDuARjTASIfCAEQ7gEY0wEg305CBhIEgAAAAEoKaW1hZ2UvanBlZw==",
+               "stars.note": "",
+               "stars.pageData": "EpoBUHJvZ3JhbSBmb3IgYyBkZXF1ZSBpbXBsZW1lbnRhdGlvbiBpbnB1dC1yZXN0cmljdGVkIGFuZCBvdXRwdXQtcmVzdHJpY3RlZC4uLiBidXQgaW5zZXJ0aW9uIGNhbiBvbmx5IGJlIG1hZGUgYXQgb25lIGVuZC7CoEFuIG91dHB1dC1yZXN0cmljdGVkIGRlcXVlIGlzIG9uZSIOUTF2d095OWJ3Y2RkX00=",
+               "stars.type": "2"
+            },
+            "name": "Program for c deque implementation input-restricted and output-restricted",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.cprogramto.com/c-deque/"
+         }, {
+            "date_added": "13068365700284000",
+            "id": "10",
+            "meta_info": {
+               "stars.flags": "0",
+               "stars.id": "c_7u70i64klc4h",
+               "stars.imageData": "Cg4taWV4QlotNk5CUGdpTRJeClZodHRwOi8vd3d3LmdyYXZhdGFyLmNvbS9hdmF0YXIvNDJkMWY2NzhiNGFmM2VjMDRhZTY2YWFmOWJjYzQ0YWM/cz0xNTAmZD1pZGVudGljb24mcj1QRxCWARiWARphCltodHRwOi8vdDIuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1JSbklfNk5OZGg3MmlSaGdnWFI4VXpwVXI4YUJiSXBadXlLLXVlWWtKenc0S1lJaUdOEHgYeCIcCAEQeBh4IL0dQgYSBIACAP9KCWltYWdlL3BuZw==",
+               "stars.note": "",
+               "stars.pageData": "Ek5Db2RlLCBFeGFtcGxlIGZvciBPdXRwdXQtcmVzdHJpY3RlZCBkZXF1ZSBwcm9ncmFtIHVzaW5nIGFycmF5IGluIEMgUHJvZ3JhbW1pbmciDnlrYXZ5aDY1MENTckVN",
+               "stars.type": "2"
+            },
+            "name": "Output-restricted deque program using array - C Programming Examples and Tutorials",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.dailyfreecode.com/code/output-restricted-deque-array-2872.aspx"
+         }, {
+            "date_added": "13071897592554000",
+            "id": "11",
+            "meta_info": {
+               "stars.id": "c_7zi2i7qze1kw",
+               "stars.note": "",
+               "stars.pageData": "Ig5ES2FjNmI2QmJ3WkJ5TQ==",
+               "stars.type": "2",
+               "stars.version": "sync.server.Chrome48"
+            },
+            "name": "Bharat Ka Veer Putra Maharana Pratap (Episode 191 onwards) - YouTube",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.youtube.com/playlist?list=PLzufeTFnhupx1RJeg1DPeFbkUlHnOQDbz"
+         }, {
+            "date_added": "13072989032163000",
+            "id": "12",
+            "meta_info": {
+               "stars.flags": "0",
+               "stars.id": "c_f0ybi8917dpt",
+               "stars.imageData": "Cg5BUEl4WlJqLTZuYkRITRI1Ci1odHRwOi8vczI3LnBvc3RpbWcub3JnLzNtdThpdDFvei9zaG9wZmVzdC5qcGcQ3gIYyAEaYwpbaHR0cDovL3QwLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NTa0tQRUxwTWRUZVVsSzBSTWx1Nno0a0RlMW0xVnBLZWtWdkUxWDZhaTJtNGlUbmxYUBCYAhigASIfCAEQmAIYoAEg2HBCBhIEgAAAAEoKaW1hZ2UvanBlZw==",
+               "stars.note": "",
+               "stars.pageData": "EqYBV2F0Y2ggTGl2ZSBDcmlja2V0IFN0cmVhbWluZyBPbmxpbmUgYWxsIGNyaWNpbmZvLiBTdGFyIENyaWNrZXQgV29ybGQgQ3VwIExpdmUgVGVsZWNhc3QgYW5kIExpdmUgRm9vdGJhbGwgb24gU2t5IFNwb3J0cyBIRC4gSUNDIFdvcmxkIEN1cCAyMDE1IC0gV2F0Y2hMaXZlU3RyZWFtaW5nLm5ldCIOVTV4eldLdDVxQXNqdE0=",
+               "stars.type": "2"
+            },
+            "name": "Watch Live Cricket Streaming Cricket World Cup Live 2015",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://www.livecricketstreaming1.com/wcup.php"
+         } ],
+         "date_added": "13141749741518554",
+         "date_modified": "13072989032163000",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "52",
+      "synced": {
+         "children": [ {
+            "date_added": "13128245909370132",
+            "id": "6",
+            "name": "The Truth of Java Exceptions: What's Really Going on Under the Hood? - DZone Java",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://dzone.com/articles/the-truth-of-java-exceptions-whats-really-going-on"
+         } ],
+         "date_added": "13141749741518555",
+         "date_modified": "13128245909370132",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

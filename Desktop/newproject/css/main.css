@@ -1,0 +1,35 @@
+body{
+  font-family: helvetica;
+}
+.main-heading{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 80px;
+}
+.troosearch-inputs{
+  text-align: center;
+  margin-top: 15px;
+}
+.troosearch-inputs #search-property{
+  /*text-align: center;*/
+  width: 60%;
+  padding: 20px;
+  font-size: 25px;
+}
+.suggestion-box{
+  text-align: center;
+  display: inline-block;
+  width: 60%;
+  padding: 20px;
+  height: 350px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.single-suggestion{
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 20px;
+  padding-left: 1px;
+  padding-top: 10px;
+}

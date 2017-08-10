@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta charset ="utf-8">
+  <title>TrooFeed</title>
+  <script type="text/javascript" src="check.js">
+  </script>
+  <link rel="stylesheet" href="check.css">
+  </head>
+  <body>
+  <h3 class="text-center heading"> TrooFeed</h3>
+  <div class="feed">
+    <div class="image i-b">
+    <img src="./images/1.jpg" alt="">
+    </div>
+    <div class="like-container">
+        Manmohan,swarnil and 2 others likes this!
+        </div>
+        </div>
+
+        </body>
+        </html>

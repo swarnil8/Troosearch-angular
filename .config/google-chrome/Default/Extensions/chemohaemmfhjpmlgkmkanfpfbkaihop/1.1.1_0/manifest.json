@@ -1,0 +1,22 @@
+{
+   "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "popup.html",
+      "default_title": "Access chrome plugins page"
+   },
+   "default_locale": "en",
+   "description": "Chrome Plugins button",
+   "icons": {
+      "128": "logo.png",
+      "16": "logo.png",
+      "32": "logo.png",
+      "48": "logo.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDoaQbfqqkX+HAgDw60O1YDPMtCl87ideef/e3r+xqX49UngZ2BaD9w4+ZeXllYeTUJ4OAKL3uEH3NBKt6tRhyBMocScuFWWUn+mIv1mig7PDjuBzEw2SljpKrIQyISRkptKbk+N5vtPLzSm/vTghe8GT+rhW5ASsYo5mngyapsZQIDAQAB",
+   "manifest_version": 2,
+   "name": "Plugins",
+   "offline_enabled": true,
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}

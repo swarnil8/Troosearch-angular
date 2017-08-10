@@ -1,0 +1,32 @@
+2017/07/09-12:39:53.691 2603 Reusing MANIFEST /home/swarnil/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2017/07/09-12:39:53.691 2603 Recovering log #1895
+2017/07/09-12:39:53.773 2603 Reusing old log /home/swarnil/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/001895.log 
+2017/07/09-12:40:52.272 3558 Level-0 table #1899: started
+2017/07/09-12:40:52.365 3558 Level-0 table #1899: 2593706 bytes OK
+2017/07/09-12:40:52.399 3558 Delete type=0 #1895
+2017/07/09-12:40:52.849 3558 Level-0 table #1901: started
+2017/07/09-12:40:52.946 3558 Level-0 table #1901: 2593124 bytes OK
+2017/07/09-12:40:53.003 3558 Delete type=0 #1898
+2017/07/09-12:40:55.274 3558 Level-0 table #1903: started
+2017/07/09-12:40:55.414 3558 Level-0 table #1903: 2593360 bytes OK
+2017/07/09-12:40:55.472 3558 Delete type=0 #1900
+2017/07/09-12:40:55.474 3558 Compacting 4@0 + 2@1 files
+2017/07/09-12:40:55.648 3558 Generated table #1904@0: 1 keys, 2593118 bytes
+2017/07/09-12:40:55.693 3558 Generated table #1905@0: 5 keys, 422 bytes
+2017/07/09-12:40:55.693 3558 Compacted 4@0 + 2@1 files => 2593540 bytes
+2017/07/09-12:40:55.750 3558 compacted to: files[ 0 2 1 0 0 0 0 ]
+2017/07/09-12:40:55.751 3558 Delete type=2 #1903
+2017/07/09-12:40:55.752 3558 Delete type=2 #1896
+2017/07/09-12:40:55.752 3558 Delete type=2 #1894
+2017/07/09-12:40:55.752 3558 Delete type=2 #1893
+2017/07/09-12:40:55.753 3558 Delete type=2 #1901
+2017/07/09-12:40:55.754 3558 Delete type=2 #1899
+2017/07/09-12:40:57.143 3558 Level-0 table #1907: started
+2017/07/09-12:40:57.283 3558 Level-0 table #1907: 2593119 bytes OK
+2017/07/09-12:40:57.351 3558 Delete type=0 #1902
+2017/07/09-13:40:51.912 3558 Level-0 table #1909: started
+2017/07/09-13:40:52.098 3558 Level-0 table #1909: 2593711 bytes OK
+2017/07/09-13:40:52.154 3558 Delete type=0 #1906
+2017/07/09-13:45:11.090 3558 Level-0 table #1911: started
+2017/07/09-13:45:11.222 3558 Level-0 table #1911: 2593129 bytes OK
+2017/07/09-13:45:11.256 3558 Delete type=0 #1908
